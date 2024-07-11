@@ -4,8 +4,25 @@ import fotoPerfil from '/img/CV.jpeg'
 import fotoSobreMi from '/img/sobre mi.jpeg'
 import testimonio1 from '/img/Testimonio1.png'
 import testimonio2 from '/img/Testimonio2.png'
-// import bumeran from '/vite.svg'
+
+// Import de archivos css
+import './normalize.css'
 import './App.css'
+import './responsive.css'
+import '@fortawesome/fontawesome-free/css/all.css';
+
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
+
+// Iconos seccion Sobre mi
+import {faDesktop, faMobileScreenButton, faChartLine} from '@fortawesome/free-solid-svg-icons';
+
+// Iconos seccion Habilidades
+import {faPython} from '@fortawesome/free-brands-svg-icons';
+import {faNetworkWired, faComments} from '@fortawesome/free-solid-svg-icons';
+
+// Iconos seccion Servicios
+import { faGears,  } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
 
@@ -80,19 +97,19 @@ function App() {
         {/* <!-- Subseccion de los cuadros con borde amarillo e imagenes --> */}
         <section className="destacados" id="destacados">
             <div>
-                <i className="fa-solid fa-desktop"></i>
-                <h2>Diseño Web</h2>
-                <p>Foco en el diseño responsive de sitios web y sus funcionalidad con JS. </p>
+              <FontAwesomeIcon icon={faDesktop}/>
+              <h2>Diseño Web</h2>
+              <p>Foco en el diseño responsive de sitios web y sus funcionalidad con JS. </p>
             </div>
 
             <div>
-                <i className="fa-solid fa-mobile-screen-button"></i>
-                <h2>Backend de aplicaciones</h2>
-                <p>Desarrollo de funcionalidades para 2 aplicaciones disponibles en la app store de google.</p>
+              <FontAwesomeIcon icon={faMobileScreenButton} />    
+              <h2>Backend de aplicaciones</h2>
+              <p>Desarrollo de funcionalidades para 2 aplicaciones disponibles en la app store de google.</p>
             </div>
 
             <div>
-                <i className="fa-solid fa-chart-line"></i>
+                <FontAwesomeIcon icon={faChartLine}/>
                 <h2>+ 90% de éxito</h2>
                 <p>En proyectos desarrollados como freelancer.</p>
             </div>
@@ -105,19 +122,19 @@ function App() {
         {/* <!-- Subseccion con los cuadros amarillos e íconos --> */}
         <section className="habilidades" >
             <div>
-                <i className="fa-solid fa-desktop"></i>
-                <h1>Web</h1>
-                <p>Diseño responsive completo, utilizando tecnologías como HTML, CSS y JS</p>
+              <FontAwesomeIcon icon={faDesktop}/> 
+              <h1>Web</h1>
+              <p>Diseño responsive completo, utilizando tecnologías como HTML, CSS y JS</p>
             </div>
             
             <div>
-                <i className="fa-solid fa-mobile-screen-button"></i>
-                <h1>Mobile Apps</h1>
-                <p>Desarrollo del backend de aplicaciones utilizando el framework Flask de Python</p>
+              <FontAwesomeIcon icon={faMobileScreenButton}/>
+              <h1>Mobile Apps</h1>
+              <p>Desarrollo del backend de aplicaciones utilizando el framework Flask de Python</p>
             </div>
 
             <div>
-                <i className="fa-brands fa-python"></i>
+              <FontAwesomeIcon icon={faPython}/>
                 <h1>Python</h1>
                 <p>Como lenguaje principal para el desarrollo de aplicaciones web.</p>
             </div>
@@ -157,31 +174,31 @@ function App() {
         {/* <!-- Subseccion con las divisiones para cada recuadro --> */}
         <section className="servicios" >
             <div>
-              <i className="fa-solid fa-desktop"></i>
+              <FontAwesomeIcon icon={faNetworkWired}/>
               <h2>Diseño Web</h2>
               <p>¡Potencia tu presencia en línea! Ofrezco servicios profesionales de creación de páginas web utilizando HTML, CSS y JavaScript. Ya sea que necesites una página moderna, responsive y con alto rendimiento, puedo transformar tu visión en una realidad.</p>
               <button>Detalles</button>
             </div>
 
             <div>
-              <i className="fa-solid fa-mobile-screen-button"></i>
+              <FontAwesomeIcon icon={faGears}/> 
               <h2>Mobile Apps</h2>
               <p>Impulsa tu aplicación con un backend robusto y eficiente. Ofrezco servicios de desarrollo backend para que tu aplicación funcione de manera rápida y segura. Con un enfoque en la escalabilidad y el rendimiento, optimizaré la estructura de tu aplicación para que brinde una experiencia de usuario impecable.</p>
               <button>Detalles</button>
             </div>
 
             <div>
-              <i className="fa-brands fa-python"></i>
+              <FontAwesomeIcon icon={faPython}/> 
               <h2>Desarrollo en Python</h2>
               <p>Simplifica tus procesos y automatiza tareas con mis servicios de desarrollo de scripts en Python. Ofrezco soluciones eficientes y personalizadas para optimizar tu flujo de trabajo y ahorrar tiempo. ¡Haz que Python trabaje para ti y maximiza tu productividad! </p>
               <button>Detalles</button>
             </div>
 
             <div>
-                <i className="fa-solid fa-gears"></i>
-                <h2>Consultoría</h2>
-                <p>Optimiza tus procesos industriales con nuestras consultorías en ingeniería química. Especializados en programación y automatización, ofrecemos soluciones innovadoras para mejorar la eficiencia y reducir costos. </p>
-                <button>Detalles</button>
+              <FontAwesomeIcon icon={faComments}/> 
+              <h2>Consultoría</h2>
+              <p>Optimiza tus procesos industriales con nuestras consultorías en ingeniería química. Especializados en programación y automatización, ofrecemos soluciones innovadoras para mejorar la eficiencia y reducir costos. </p>
+              <button>Detalles</button>
             </div>
 
             <div>
@@ -306,9 +323,9 @@ function App() {
               <i className="fa-brands fa-github footer-icons"></i>
           </a>
 
-          {/* <!-- NO FUNCIONÓ EL ICONO DE UPWORK --> */}
+
           <a href="https://www.upwork.com/freelancers/~01dacc95db22177ffa?viewMode=1" target="_blank">
-              <i className="fa-brands fa-upwork footer-icons">Up</i>
+              <i className="fa-brands fa-upwork footer-icons"></i>
           </a>
         </div>
         

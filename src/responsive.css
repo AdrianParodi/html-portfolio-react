@@ -1,0 +1,1162 @@
+@media(max-width:1920px){   
+    :root{ 
+        --general-margin:0% 15%;
+        --width-div-testimonios:20%;
+        --line-height-simple: 24px;
+        --padding-top-hero: 120px;
+        --padding-top-other-sections: 100px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: var(--line-height-simple);
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+
+    /* Seccion header */
+    .header-izq p{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .header-container img{
+        width:45px;
+        height:45x;
+    }
+
+    /* Barra de navegacion y sus divisiones */
+
+    .header-container a{
+        font-size:22px;
+        font-weight: 600;
+        margin: 15px;
+    } 
+
+    .small-button{
+        width: 160px;
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    /* Sección Hero */
+    .hero p{
+        line-height: var(--line-height-double);
+    }
+
+    .big-button{
+        padding: 15px 40px;
+        width: 200px;
+        font-size:20px
+    }
+
+    /* Seccion sobre mi */
+    .sobre-mi-top p{
+        line-height: var(--line-height-double);
+    }
+
+    .div-borde-blanco{
+        margin-left: 15px;
+        padding: 0px 5px 30px 30px;
+    }
+    
+    .services-button{
+        font-size: 20px;
+        width: 400px;
+    }
+    
+    .flechas-icons{
+        font-size: 30px;
+    }
+    
+    /* Subseccion con cuadros amarillos e imágenes */
+    .destacados{
+        padding-top:5px;
+    }
+    
+    .destacados div{
+        padding: 10px 25px 5px 25px;
+        width: 26%;
+    }
+    
+    .destacados p{
+        font-size: 18px;
+        font-weight: 400;
+        width:250px;
+        
+    }
+    
+    .destacados i{
+        font-size: 60px;
+        margin: 10px 0px;
+    }
+    
+    /* Seccion habilidades */
+    .habilidades{
+        padding:20px 0px;
+    }
+    
+    .habilidades div{
+        padding: 10px 25px 5px 25px;
+        width: 26%;
+    }
+    
+    .habilidades p{
+        font-weight: 400;
+        width:250px;
+    }
+    
+    .habilidades i{
+        font-size: 60px;
+        margin: 10px 0px;
+    }
+    
+    /* Seccion Proyectos */
+    .proyectos{
+        padding-top: 20px;
+    }
+    
+    .proyectos div{
+        width: 26%;
+    }
+    
+    .proyectos p{
+        width:250px;
+    }
+    
+    /* Sección Servicios */    
+
+    .servicios button{
+        font-size: 22px;
+        padding: 9px 35px;
+    }
+    
+    /* Seccion de Testimonios */    
+    .testimonios img{
+        width: 80px;
+        height: 80px;
+    }
+        
+    .stars{
+        height:35px;
+    }
+    
+    /* Seccion de contacto */
+    .contacto input{
+        font-size: 18px;
+    }
+    
+    .contacto textarea{
+        font-size: 18px;
+    }
+    
+    
+    /* Seccion Footer */    
+    .footer-icons{
+        font-size: 35px;
+        padding: 15px;
+        width: 35px;
+        height: 35px;
+    }
+
+}
+
+@media(max-width:1440px){
+    :root{ 
+        --general-margin:0% 10%;
+        --width-div-testimonios:20%;
+        --line-height-simple: 24px;
+        --padding-top-hero: 120px;
+        --padding-top-other-sections: 100px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: var(--line-height-simple);
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    /* Seccion header */
+    .header-izq p{
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .header-container img{
+        width:45px;
+        height:45x;
+    }
+
+    /* Barra de navegacion y sus divisiones */
+
+    .header-container a{
+        font-size:20px;
+        font-weight: 600;
+        margin: 10px;
+    } 
+
+    .small-button{
+        width: 140px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /* Seccion servicios */
+    .servicios button{
+        font-size: 14px;
+        font-weight: 700;
+        padding: 7px 30px;
+    }
+}
+
+
+@media(max-width:1280px){
+    :root{ 
+        --general-margin:0% 10%;
+        --width-div-testimonios:20%;
+        --line-height-simple: 24px;
+        --padding-top-hero: 140px;
+        --padding-top-other-sections: 80px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: var(--line-height-simple);
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    .header-izq p{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .header-container img{
+        width:35px;
+        height:35x;
+    }
+
+    /* Barra de navegacion y sus divisiones */
+    nav{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin: 0px 10px;
+        padding: 10px 10px; 
+        }
+
+    .header-container a{
+        font-size:16px;
+        font-weight: 600;
+        margin: 5px;
+    } 
+
+    .small-button{
+        width: 130px;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1024px){
+    :root{ 
+        --general-margin:0% 8%;
+        --width-div-testimonios:20%;
+        --line-height-simple: 24px;
+        --padding-top-hero: 60px;
+        --padding-top-other-sections: 80px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    .header-izq p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .header-container img{
+        width:35px;
+        height:35x;
+    }
+
+    /* Barra de navegacion y sus divisiones */
+    nav{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin: 0px 10px;
+        padding: 10px 10px; 
+        }
+
+    .header-container a{
+        font-size:16px;
+        font-weight: 500;
+        margin: 5px;
+    } 
+
+    /* Sección Hero */
+    .hero{
+    height: 80vh;
+    }
+
+    /* Boton de la parte derecha de la barra de navegacion */
+    .div-boton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small-button{
+        width: 110px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /* Subseccion de los cuadros con borde amarillo e imagenes */
+
+    .destacados{
+        flex-basis: 100%;
+        width:100%;    
+    }
+
+    .destacados div{
+        width:23%;
+    }
+
+    .destacados p{
+        width:100%;
+    }
+     
+    /* Seccion habilidades */
+    .habilidades{
+        flex-basis: 100%;
+        width:100%;
+    }
+    
+    .habilidades div{
+        width:23%;
+    }
+    
+    .habilidades p{
+        width:100%;
+    }
+
+    .habilidades h1{
+        font-weight: 600;
+        /* line-height: 28px; */
+        font-style: normal;
+    }
+    
+    /* Seccion Proyectos */
+    .proyectos{
+        flex-basis:100%;
+        width:100%;
+    }
+    
+    .proyectos div{
+        width:23%;
+    }
+    
+    .proyectos p{
+        width:100%;
+    }
+
+    .proyectos h1{
+        font-weight: 600;
+        /* line-height: 28px; */
+        font-style: normal;
+    }
+
+    /* Sección Servicios */
+    .servicios{
+        padding-top: 20px;
+    }
+
+    .servicios div{
+        width: 23%;
+    }
+
+    .servicios p{
+        font-size: 14px;
+        font-weight: 400;
+        width:80%;
+    }
+
+}
+
+
+@media(max-width:768px){
+    :root{ 
+        --general-margin:0% 10%;
+        --width-div-testimonios:20%;
+        --line-height-simple: 20px;
+        --padding-top-hero: 140px;
+        --padding-top-other-sections: 80px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: var(--line-height-simple);
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 22;
+    }
+
+    header{
+        width: 100%;
+    }
+    .header-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    nav {
+        justify-content: center;
+        }
+        
+    .header-container nav a{
+        display:none;
+    }
+
+    .header-container i{
+        display: block;
+        justify-self: center;
+    }
+
+    .header-container i:hover{
+        cursor: pointer;
+    }
+
+    .header-izq p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .header-container img{
+        width:35px;
+        height:35x;
+    }
+
+    /* Barra de navegacion y sus divisiones */
+    nav{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin: 0px 10px;
+        padding: 10px 10px; 
+        }
+
+    .header-container a{
+        font-size:16px;
+        font-weight: 400;
+        margin: 5px;
+    } 
+
+    /* Boton de la parte derecha de la barra de navegacion */
+    .div-boton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small-button{
+        width: 110px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+
+    /* Seccion Hero */
+    .foto-perfil{
+        height:200px;
+        width:200px;
+        margin-right: 30px;
+        margin-left: 10px;       
+    }
+    .hero{
+        flex-basis: 100%;
+    }
+    
+    .hero p{
+        width:100%;
+    }
+
+    .hero div{
+        flex-basis:100%;
+        flex-grow:1; 
+        width: 100%;     
+    }
+
+    /* Seccion Sobre mi */
+    .sobre-mi-top{
+        width:100%;
+    }
+
+    .foto-sobre-mi{
+        height:200px;
+        width:200px; 
+    }
+
+    .div-borde-blanco{
+        padding: 0px 5px 30px 20px;
+        width:100%;
+        /* margin-right:30px; */
+    }
+
+    .services-button{
+        padding: 15px 10px;
+        width: 100%;
+        margin-right: 15px;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+
+    /* Subseccion de los cuadros con borde amarillo e imagenes */
+
+    .destacados{
+        flex-basis: 100%;
+        width:100%;    
+    }
+
+    .destacados div{
+        width:20%;
+    }
+
+    .destacados p{
+        width:100%;
+    }
+     
+    /* Seccion habilidades */
+    .habilidades{
+        flex-basis: 100%;
+        width:100%;
+    }
+    
+    .habilidades div{
+        width: 20%;
+    }
+    
+    .habilidades p{
+        width:100%;
+    }
+
+    .habilidades h1{
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    /* Seccion Proyectos */
+    .proyectos{
+        flex-basis:100%;
+        width:100%;
+    }
+    
+    .proyectos div{
+        width: 20%;
+    }
+    
+    .proyectos p{
+        width:100%;
+    }
+
+    .proyectos h1{
+        font-size: 24px;
+        font-weight: 600;
+        /* line-height: 28px; */
+        font-style: normal;
+    }
+
+    /* Sección Servicios */
+    .servicios{
+        padding-top: 20px;
+    }
+
+    .servicios div{
+        border-radius: 20px;
+        padding: 10px 25px 15px 25px;
+        width: 38%;
+    }
+
+    .servicios p{
+        font-weight: 400;
+        width:80%;
+    }
+
+    /* Seccion de Testimonios */
+    .testimonios{
+        padding-top: 20px;
+        /* border: white solid 2px; */
+    }
+
+    .testimonios img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .testimonios section{
+        border: none;
+        margin: 15px 0px;
+    }
+
+    .testimonios div{
+        border-radius: 20px;
+        padding: 10px 25px 15px 25px;
+        align-self: stretch;
+    }
+
+    .testimonios p{
+        color: rgb(249,249,249);
+        font-weight: 400;
+        width:80%;
+    }
+
+    .stars::before {
+        font-weight: 900;
+    }
+
+
+    /* Seccion de contacto */
+    .contacto div{
+        width: 100%;
+    }
+
+    .contacto input{
+        padding: 10px 10px;
+        border-radius: 7px;
+    }
+
+    .contacto textarea{
+        padding: 10px 10px;
+        border-radius: 7px;
+        height: 100px;
+    }
+
+    form{
+        width: 45%
+    }
+
+    /* Seccion Footer */
+
+    footer{
+        width: 100%;
+    }
+
+    .footer-section{
+        flex-grow: 1;
+    }
+
+    .footer-icons{
+        font-size: 25px;
+        padding: 10px;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+@media(max-width:480px){
+    :root{ 
+        --transition-buttons: 1.5s;
+        --general-margin:0% 5%;
+        --width-div-testimonios:34%;
+        --background-color:rgb(16,24,32);
+        --line-height-simple: 16px;
+        --line-height-double: calc(var(--line-height-simple) * 2);
+        --padding-top-hero: 120px;
+        --padding-top-other-sections: 80px;
+    }
+    
+    p{
+        font-size: 14px;
+        line-height: var(--line-height-simple);
+    }
+    
+    h1{
+        font-size: 22px;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+
+    /* Barra de navegacion */
+
+    .header-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        justify-content: center;
+        }
+        
+    .header-container nav a{
+        display:none;
+    }
+
+    .header-container i{
+        display: block;
+        justify-self: center;
+    }
+
+    .header-container i:hover{
+        cursor: pointer;
+    }
+
+    .small-button{
+        width: 130px;
+        padding: 6px;
+        font-size: 16px;
+    }
+    
+    /* Seccion Hero */
+    .foto-perfil{
+        display: none;
+    }
+
+    .big-button{
+        padding: 9px 15px;
+        width: 165px;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+
+    /* Seccion sobre mi */
+
+    .div-borde-blanco{
+        margin-left: 0px;
+    }
+
+    .foto-sobre-mi{
+        display: none;
+    }
+
+    .destacados div{
+        width: 18%;
+    }
+
+    .services-button{
+        padding: 9px 10px;
+        width: 330px;
+        margin-right: 15px;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    /* Subseccion con cuadros amarillos e imágenes */
+
+    /* .destacados{
+        flex-basis: 100%;
+        padding-top:5px;
+    } */
+    
+    .destacados div{
+        padding: 8px;
+        width: 25%;
+    }
+    
+    .destacados p{
+        /* width: none; */
+        font-size: 14px;
+    }
+    
+    .destacados i{
+        font-size: 50px;
+        margin: 10px 0px;
+    }
+    
+    /* .destacados h2{
+        margin: 10px;
+        line-height: 28px;
+    } */
+
+
+    /* Seccion habilidades */
+    .habilidades{
+        flex-basis: 100%;
+        width:100%;
+    }
+    
+    .habilidades div{
+        width: 25%;
+        padding: 8px;
+    }
+    
+    .habilidades p{
+        width:none;
+    }
+
+    .habilidades h1{
+        font-weight: 600;
+        font-style: normal;
+        font-size: 18px;
+    }
+
+    .habilidades i{
+        font-size: 45px;
+    }
+    
+    /* Seccion Proyectos */
+    .proyectos{
+        flex-basis:100%;
+        width:100%;
+    }
+    
+    .proyectos div{
+        width: 25%;
+        /* padding: 10px 15px 5px 15px; */
+        padding: 8px;
+    }
+    
+    .proyectos p{
+        width:100%;
+    }
+
+    .proyectos h1{
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+    }
+
+
+    /* Seccion servicios */
+    .servicios div{
+        width: 25%;
+        padding: 8px 8px 12px 8px;
+    }
+
+    .servicios p{
+        width:100%;
+    }
+
+    .servicios i{
+        font-size: 45px;
+    }
+
+    /* Seccion footer */
+    form{
+        width: 80%
+    }
+}
+
+
+@media(max-width:320px){
+    :root{ 
+        --transition-buttons: 1.5s;
+        --general-margin:0% 2%;
+        --width-div-testimonios:36%;
+        --background-color:rgb(16,24,32);
+        --line-height-simple: 16px;
+        --line-height-double: 22px;
+        --padding-top-hero: 120px;
+        --padding-top-other-sections: 80px;
+    }
+    
+    p{
+        font-size: 12px;
+        line-height: var(--line-height-simple);
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+
+    /* Barra de navegacion */
+
+    header{
+        width: 100%;
+    }
+    .header-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    nav {
+        justify-content: center;
+        }
+        
+    .header-container nav a{
+        display:none;
+    }
+
+    .header-container i{
+        display: block;
+        justify-self: center;
+    }
+
+    .header-container i:hover{
+        cursor: pointer;
+    }
+
+    .small-button{
+        width: 100px;
+        padding: 6px;
+        font-size: 14px;
+    }
+    
+    /* Seccion Hero */
+    .foto-perfil{
+        display: none;
+    }
+
+    .big-button{
+        padding: 7px 10px;
+        width: 135px;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+
+    /* Seccion sobre mi */
+
+    .div-borde-blanco{
+        margin-left: 0px;
+        padding: 0px 0px 20px 15px;
+    }
+
+    .foto-sobre-mi{
+        display: none;
+    }
+
+    .services-button{
+        padding: 9px 8px;
+        width: 280px;
+        margin-right: 10px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    /* Subseccion con cuadros amarillos e imágenes */
+
+    .destacados{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .destacados div{
+        align-self: center;
+        padding: 8px;
+        width: 80%;
+    }
+    
+    .destacados p{
+        font-size: 14px;
+    }
+    
+    .destacados i{
+        font-size: 35px;
+        margin: 10px 0px;
+    }
+
+
+    /* Seccion habilidades */
+    .habilidades{
+        flex-basis: 100%;
+        width:100%;
+    }
+    
+    .habilidades div{
+        width: 36%;
+        padding: 10px 15px;
+    }
+    
+    .habilidades p{
+        width:none;
+    }
+
+    .habilidades h1{
+        font-weight: 600;
+        font-style: normal;
+        font-size: 18px;
+    }
+
+    .habilidades i{
+        font-size: 45px;
+    }
+    
+    /* Seccion Proyectos */
+    .proyectos{
+        flex-basis:100%;
+        width:100%;
+    }
+    
+    .proyectos div{
+        width: 36%;
+        padding: 10px 15px;
+    }
+
+    .proyectos h1{
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+
+    /* Seccion servicios */
+    .servicios div{
+        width: 36%;
+        padding: 10px 15px;
+    }
+
+    .servicios p{
+        width:100%;
+    }
+
+    .servicios i{
+        font-size: 45px;
+    }
+
+    .servicios button{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 4px 12px;
+    }
+
+    /* Seccion de Testimonios */
+    .stars{
+        height:20px;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    } 
+    
+
+    .stars::before {
+        content:'\f005\00A0\f005\00A0\f005\00A0\f005\00A0\f005';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 800;
+        font-size: 14px;
+        color: rgb(254,231,21);
+    }
+
+    .testimonios div{
+        padding: 20px 15px;
+
+    }
+
+    .testimonios p{
+        width:100%;
+    }
+
+    /* Seccion footer */
+    form{
+        width: 80%
+    }
+
+
+    /* Seccion de contacto */
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    border: none;
+}
+
+.contacto input{
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+.contacto textarea{
+    padding: 10px 10px;
+    border-radius: 7px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%
+}
+
+/* Seccion Footer */
+
+footer{
+    width: 100%;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.footer-section div{
+    display:flex;
+    align-items: center;
+}
+
+.div-iconos{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-icons{
+    color: rgb(254,231,21);
+    font-size: 20px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+
+}
+
+
+
+
+
