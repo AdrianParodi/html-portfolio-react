@@ -1,0 +1,91 @@
+header{
+    background-color: var(--background-color);
+    max-width: 100%;
+    margin-right: var(--margin-right-header);
+    position: fixed;
+    top: 0;
+    /* border: 1px solid red; */
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 100%;
+    flex-grow: 1;
+    /* margin-right: var(--margin-right-header); */
+    /* border: 1px solid green; */
+}
+
+/* Icono para desplegar el menu en responsive */
+.header-container i{
+    color: rgb(249,249,249);
+    font-size: 40px;
+    margin: 10px 0px;
+    display: none;
+}
+
+.header-izq{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+.header-izq p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header-izq p:hover{
+    cursor: pointer;
+}
+
+.header-container img{
+    width:45px;
+    height:45x;
+}
+
+/* Barra de navegacion y sus divisiones */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+    margin: 0px 20px;
+    padding: 0 20px; 
+    /* border: 1px solid green; */
+}
+
+.header-container a{
+    font-size:18px;
+    font-weight: 600;
+    /* text-decoration: none; */
+    color:rgb(249,249,249);
+} 
+
+/* Boton de la parte derecha de la barra de navegacion */
+.div-boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: red 1px solid; */
+}
+
+.small-button{
+    align-self: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(254,231,21);
+    background-color: var(--background-color);
+    color: rgb(254,231,21);
+    transition: var(--transition-buttons);
+    font-size: 18px;
+}
+
+.small-button:hover{
+    background: rgb(254,231,21);
+    color: rgb(16,24,32);
+    cursor: pointer;
+}

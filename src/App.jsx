@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import bumeran from '/img/Imagen-navbar.png'
 import fotoPerfil from '/img/CV.jpeg'
 import fotoSobreMi from '/img/sobre mi.jpeg'
@@ -8,8 +8,8 @@ import testimonio2 from '/img/Testimonio2.png'
 // Import de archivos css
 import './normalize.css'
 import './App.css'
-import './responsive.css'
 import '@fortawesome/fontawesome-free/css/all.css';
+import './responsive.css'
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
@@ -28,30 +28,7 @@ function App() {
 
   return (
     <>
-      <header>
-        <div className="header-container">
-            <div className="header-izq">
-                <p>Portafolio</p>
-                <img src={bumeran} alt=""/>
-            </div>
-            <nav>
-                <a href="#hero">Principal</a>
-                <a href="#sobre-mi">Sobre</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#proyectos">Proyectos</a>
-                <a href="#servicios">Servicios</a>
-                <a href="#testimonios">Testimonios</a>
-                <a href="#contacto">Contacto</a>
-                <i className="bi bi-list"></i>
-            </nav>
-            <div className="div-boton">
-                <a href="#contacto">
-                    <button className="small-button">Contratarme</button>
-                </a>  
-            </div>
-        </div>
-      </header>
-
+      
       {/* <!-- Seccion Hero --> */}
       <section className="hero" id="hero">
         <div>
@@ -307,33 +284,6 @@ function App() {
               
       </form>
     </section>
-
-    <footer>
-      <section className="footer-section">
-        <div>
-          <p>© 2024 - Desarrollado por Adrian Parodi</p>
-        </div>
-        
-        <div className="div-iconos">
-          <a href="https://www.linkedin.com/in/adrian-parodi/" target="_blank">
-              <i className="fa-brands fa-linkedin footer-icons"></i>
-          </a>
-
-          <a href="https://github.com/Adrieto" target="_blank">
-              <i className="fa-brands fa-github footer-icons"></i>
-          </a>
-
-
-          <a href="https://www.upwork.com/freelancers/~01dacc95db22177ffa?viewMode=1" target="_blank">
-              <i className="fa-brands fa-upwork footer-icons"></i>
-          </a>
-        </div>
-        
-        <div>
-          <p>parodiadrian3@gmail.com</p>
-        </div>
-      </section>       
-    </footer>
 
     </>
   )
