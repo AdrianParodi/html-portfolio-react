@@ -5,7 +5,7 @@
 /* variables para todo el documento */
 :root{ 
     --transition-buttons: 1.5s;
-    --margin-right-header: 6%;
+    --general-lateral-margin: 10%;
     --general-margin:0% 10%;
     --width-div-testimonios:18%;
     --background-color:rgb(16,24,32);
@@ -62,6 +62,8 @@ body{
     justify-content: center;
     align-items: center;
     margin: var(--general-margin);
+    border: 1px solid green;
+
 }
 
 /* Seccion habilidades */

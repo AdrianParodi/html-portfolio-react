@@ -7,12 +7,12 @@ const Header=()=>{
         <header>
             <div className="header-container">
                 <div className="header-izq">
-                    <p>Portafolio</p>
+                    <a className="portafolio" href="#hero">Portafolio</a>
                     <img src={bumeran} alt=""/>
                 </div>
                 <nav>
-                    <a href="#hero">Principal</a>
-                    <a href="#sobre-mi">Sobre</a>
+                    {/* <a href="#hero">Principal</a> */}
+                    <a href="#sobre-mi">Sobre mi</a>
                     <a href="#habilidades">Habilidades</a>
                     <a href="#proyectos">Proyectos</a>
                     <a href="#servicios">Servicios</a>
@@ -27,7 +27,6 @@ const Header=()=>{
                 </div>
             </div>
         </header>
-
     )
 }
 

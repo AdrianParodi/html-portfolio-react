@@ -1,10 +1,14 @@
 header{
     background-color: var(--background-color);
-    max-width: 100%;
-    margin-right: var(--margin-right-header);
     position: fixed;
+    box-sizing: border-box;
     top: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    width: calc(100% + var(--general-lateral-margin)); /* Ancho del header, restando los márgenes del body */
+    margin-left: calc(-1*var(--general-lateral-margin)); /* Compensa el margen izquierdo del body */
+    margin-right: calc(-1*var(--general-lateral-margin)); /* Compensa el margen derecho del body */
+    padding-left: var(--general-lateral-margin);
+    padding-right: calc(2*var(--general-lateral-margin));
 }
 
 .header-container{
@@ -25,15 +29,22 @@ header{
     display: none;
 }
 
+.header-container a{
+    font-size:18px;
+    font-weight: 500;
+    /* text-decoration: none; */
+    color:var(--color1);
+} 
+
 .header-izq{
     display: flex;
     align-items: center;
-    /* border: 1px solid green; */
 }
 
-.header-izq p{
-    font-size: 24px;
+.header-izq .portafolio{
+    font-size: 32px;
     font-weight: 600;
+    margin-left: 0px;
 }
 
 .header-izq p:hover{
@@ -52,25 +63,16 @@ nav{
     justify-content: space-between;
     align-items: center;
     flex-basis: 100%;
-    margin: 0px 20px;
-    padding: 0 20px; 
+    margin: 0px 10px;
+    padding: 0 10px; 
+    border: 1px solid green;
 }
 
 nav a:hover{
     color: var(--color2);
     /* font-weight: 600; */
-    
     transition: 0.5s;
 }
-
-.header-container a{
-    font-size:18px;
-    font-weight: 500;
-    /* text-decoration: none; */
-    color:var(--color1);
-} 
-
-
 
 /* Boton de la parte derecha de la barra de navegacion */
 .div-boton{
