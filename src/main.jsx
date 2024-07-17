@@ -8,6 +8,7 @@ import Footer from './Component/Footer/Footer.jsx'
 import Hero from './Component/Hero/Hero.jsx'
 import SobreMi from './Component/SobreMi/SobreMi.jsx'
 import Habilidades from './Component/Habilidades/Habilidades.jsx'
+import Proyectos from './Component/Proyectos/Proyectos.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Hero/>
     <SobreMi/>
     <Habilidades/>
+    <Proyectos/>
     <App/>
     <Footer/>
   </React.StrictMode>,
