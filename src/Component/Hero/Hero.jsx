@@ -1,8 +1,6 @@
 import './Hero.css'
 import fotoPerfil from '/img/CV.jpeg'
 
-{/* <!-- Seccion Hero --> */}
-
 const Hero=()=>{
     return(
         <section className="hero" id="hero">
