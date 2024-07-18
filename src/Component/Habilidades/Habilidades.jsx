@@ -12,9 +12,9 @@ const Habilidades=()=>{
         
       <section id="habilidades">
         <h1>Habilidades</h1>
-      {/* <!-- Subseccion con los cuadros amarillos e íconos --> */}
-      <section className="habilidades" >
-      <div>
+        {/* <!-- Subseccion con los cuadros amarillos e íconos --> */}
+        <section className="habilidades" >
+        <div>
             <FontAwesomeIcon icon={faDesktop}/> 
             <h1>Web</h1>
             <p>Diseño responsive completo, utilizando tecnologías como HTML, CSS y JS</p>
