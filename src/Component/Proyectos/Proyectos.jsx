@@ -11,7 +11,7 @@ const Proyectos=()=>{
     ]
     
     return(
-        <section>
+        <section id="proyectos">
             <h1>Proyectos</h1>
                 <div className='contenedor-proyectos'>
                     {tarjetasProyectos.map(tarjetaProyecto => <CardProyecto titulo={tarjetaProyecto.titulo} descripcion={tarjetaProyecto.descripcion}/> 

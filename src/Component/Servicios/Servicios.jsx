@@ -25,7 +25,7 @@ const Servicios=()=>{
     
     return(
        
-      <section>
+      <section id="servicios">
       <h1>Servicios</h1>
 
       {/* <!-- Subseccion con las divisiones para cada recuadro --> */}
