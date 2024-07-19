@@ -3,7 +3,7 @@ import './CardServicio.css'
 
 
 const CardServicio=({titulo, icono, descripcion})=>{
-    console.log(titulo)
+
 
     return(
         <div className='tarjeta-servicios'>

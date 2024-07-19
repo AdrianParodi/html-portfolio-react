@@ -3,7 +3,7 @@ header{
     position: fixed;
     box-sizing: border-box;
     top: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: calc(100% + var(--general-lateral-margin)); /* Ancho del header, restando los márgenes del body */
     margin-left: calc(-1*var(--general-lateral-margin)); /* Compensa el margen izquierdo del body */
     margin-right: calc(-1*var(--general-lateral-margin)); /* Compensa el margen derecho del body */
@@ -18,7 +18,6 @@ header{
     flex-basis: 100%;
     flex-grow: 1;
     /* margin-right: var(--margin-right-header); */
-    /* border: 1px solid green; */
 }
 
 /* Icono para desplegar el menu en responsive */
@@ -65,12 +64,11 @@ nav{
     flex-basis: 100%;
     margin: 0px 10px;
     padding: 0 10px; 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 nav a:hover{
     color: var(--color2);
-    /* font-weight: 600; */
     transition: 0.5s;
 }
 
@@ -79,7 +77,6 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: red 1px solid; */
 }
 
 .small-button{
