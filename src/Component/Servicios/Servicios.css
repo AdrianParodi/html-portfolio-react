@@ -1,5 +1,4 @@
-/* Sección Servicios */
-.servicios{
+.contenedor-servicios{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,47 +7,4 @@
     align-content: space-between;
     border: none;
     padding-top: 20px;
-}
-
-.servicios div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    border: 1px dashed var(--color2);
-    border-radius: 20px;
-    padding: 10px 25px 15px 25px;
-    align-self: stretch;
-    width: 26%;
-}
-
-.servicios h2{
-    font-weight: 600;
-}
-
-.servicios p{
-    color: var(--color1);
-    font-weight: 400;
-    width:250px;
-}
-
-.servicios i{
-    color: var(--color2);
-    font-size: 60px;
-    margin: 10px 0px;
-}
-
-.servicios button{
-    color: var(--background-color);
-    background-color: var(--color2);
-    font-size: 14px;
-    font-weight: 700;
-    border: none;
-    border-radius: 30px;
-    padding: 7px 30px;
-}
-
-button:hover{
-    cursor:pointer;
 }

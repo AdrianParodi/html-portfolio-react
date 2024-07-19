@@ -4,7 +4,7 @@
 
 /* variables para todo el documento */
 :root{ 
-    --transition-buttons: 1.5s;
+    --transition-buttons: 0.8s;
     --general-lateral-margin: 10%;
     --general-margin:0% 10%;
     --width-div-testimonios:18%;

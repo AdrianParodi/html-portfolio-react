@@ -1,0 +1,52 @@
+.tarjeta-servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px dashed var(--color2);
+    border-radius: 20px;
+    padding: 25px 25px 25px 25px;
+    align-self: stretch;
+    width: 26%;
+}
+
+.tarjeta-servicios .textoMasBoton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tarjeta-servicios h2{
+    font-weight: 600;
+}
+
+.tarjeta-servicios p{
+    color: var(--color1);
+    font-weight: 400;
+    width:250px;
+}
+
+.icono-servicio{
+    color: var(--color2);
+    font-size: 60px;
+    margin-top: 10px;
+
+}
+
+.textoMasBoton button{
+    color: var(--background-color);
+    background-color: var(--color2);
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    padding: 7px 30px;
+}
+
+.textoMasBoton button:hover{
+    color:var(--color1);
+    background-color:  rgb(73, 74, 73);
+    transition: var(--transition-buttons);    
+}

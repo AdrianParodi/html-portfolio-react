@@ -27,9 +27,6 @@ function App() {
 
   return (
     <>   
-
-      
-
       {/* <!-- Seccion de testimonios --> */}
       <section id="testimonios">
         <h1>
