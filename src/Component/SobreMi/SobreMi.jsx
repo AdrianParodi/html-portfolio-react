@@ -1,4 +1,5 @@
 import './SobreMi.css'
+import CardDestacado from '../CardDestacado/CardDestacado';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 // Iconos seccion Sobre mi
 import {faDesktop, faMobileScreenButton, faChartLine} from '@fortawesome/free-solid-svg-icons';
@@ -7,6 +8,15 @@ import fotoSobreMi from '/img/sobre mi.jpeg'
 
 
 const SobreMi=()=>{
+
+  const tarjetasDestacado = [
+    {titulo:"Diseño Web", icono:faDesktop, descripcion: "Foco en el diseño responsive de sitios web y sus funcionalidad con JS."},
+
+    {titulo:"Backend de aplicaciones" , icono:faMobileScreenButton , descripcion:"Desarrollo de funcionalidades para 2 aplicaciones disponibles en la App Store de Google."},
+
+    {titulo:"+ 90% de éxito" , icono:faChartLine , descripcion: "En proyectos desarrollados como freelancer."}
+  ]
+
     return(
       <section className="sobre-mi" id="sobre-mi">
       {/* <!-- Subseccion con la foto y el cuadro de borde blanco --> */}
@@ -28,27 +38,13 @@ const SobreMi=()=>{
       </section>
 
       {/* <!-- Subseccion de los cuadros con borde amarillo e imagenes --> */}
-      <section className="destacados" id="destacados">
-          <div>
-            <FontAwesomeIcon icon={faDesktop}/>
-            <h2>Diseño Web</h2>
-            <p>Foco en el diseño responsive de sitios web y sus funcionalidad con JS. </p>
-          </div>
+      <div className="contenedor-destacados">
 
-          <div>
-            <FontAwesomeIcon icon={faMobileScreenButton} />    
-            <h2>Backend de aplicaciones</h2>
-            <p>Desarrollo de funcionalidades para 2 aplicaciones disponibles en la app store de google.</p>
-          </div>
-
-          <div>
-              <FontAwesomeIcon icon={faChartLine}/>
-              <h2>+ 90% de éxito</h2>
-              <p>En proyectos desarrollados como freelancer.</p>
-          </div>
-      </section>
+        {tarjetasDestacado.map(tarjetaDestacado => <CardDestacado titulo={tarjetaDestacado.titulo} icono={tarjetaDestacado.icono} descripcion={tarjetaDestacado.descripcion}/>
+      )
+      }
+      </div>
     </section>
-
     )
 }
 

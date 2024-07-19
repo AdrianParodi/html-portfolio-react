@@ -1,10 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './CardServicio.css'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const CardServicio=({titulo, icono, descripcion})=>{
-
-
     return(
         <div className='tarjeta-servicios'>
             <FontAwesomeIcon className='icono-servicio'  icon={icono}/>
