@@ -2,7 +2,6 @@ import './CardProyecto.css'
 
 
 const CardProyecto=({titulo, descripcion})=>{
-    console.log(titulo)
 
     return(
         <div className='tarjeta-proyectos'>
