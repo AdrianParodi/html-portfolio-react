@@ -46,7 +46,7 @@
 }
 
 .textoMasBoton button:hover{
-    color:var(--color1);
-    background-color:  rgb(73, 74, 73);
+    /* color:var(--color1); */
+    background-color:  rgba(255, 240, 110, 0.906);
     transition: var(--transition-buttons);    
 }
