@@ -1,6 +1,6 @@
 import './SobreMi.css'
 import CardDestacado from '../CardDestacado/CardDestacado';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
 // Iconos seccion Sobre mi
 import {faDesktop, faMobileScreenButton, faChartLine} from '@fortawesome/free-solid-svg-icons';
 
