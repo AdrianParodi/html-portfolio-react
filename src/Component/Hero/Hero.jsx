@@ -5,10 +5,10 @@ const Hero=()=>{
     return(
         <section className="hero" id="hero">
             <div>
-                <h1>Hola, soy Adrian <br></br>
+                <h1>Hola, soy Adrián <br></br>
                 Programador y diseñador web</h1>
                 <p>Ingeniero químico con marcado perfil analítico y formación de doctorado. <br></br>
-                Ofrezco servicios en el area de ingenieria, desarrollo del backend de aplicaciones y diseño de paginas web.
+                Ofrezco servicios en el area de ingeniería, desarrollo del backend de aplicaciones y diseño de páginas web.
                 </p>
 
             <div className="contenedor-dos-botones">
@@ -17,7 +17,7 @@ const Hero=()=>{
                 </a>
                 
                 <a href="#sobre-mi">
-                    <button className="big-button">Sobre mi</button>
+                    <button className="big-button">Sobre mí</button>
                 </a>
                 </div>
             </div>

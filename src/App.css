@@ -1,7 +1,6 @@
 /* Importo pagina de íconos bootstrap */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-
 /* variables para todo el documento */
 :root{ 
     --transition-buttons: 0.8s;
@@ -36,7 +35,6 @@ a{
     text-decoration: none;
 }
 
-
 .foto-perfil{
     border-radius: 50%;
     height: 270px;
@@ -52,7 +50,6 @@ a{
     margin-left: 15px;
 }
 
-
 body{
     font-family: "Mona sans", "Helvetica Neue", "Helvetica", "sans-serif";
     display: flex;
@@ -65,38 +62,6 @@ body{
     /* border: 1px solid green; */
 }
 
-/* Seccion de contacto */
-.contacto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contacto div{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    width: 100%;
-    border: none;
-}
-
-.contacto input{
-    padding: 10px 10px;
-    border-radius: 7px;
-}
-
-.contacto textarea{
-    padding: 10px 10px;
-    border-radius: 7px;
-    height: 100px;
-    margin-bottom: 15px;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    width: 45%
-}
 
 /* Generales */
 

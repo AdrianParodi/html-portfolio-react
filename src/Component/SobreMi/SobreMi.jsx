@@ -20,13 +20,13 @@ const SobreMi=()=>{
     return(
       <section className="sobre-mi" id="sobre-mi">
       {/* <!-- Subseccion con la foto y el cuadro de borde blanco --> */}
-      <h1>Sobre mi</h1>
+      <h1>Sobre mí</h1>
       <section className="sobre-mi-top">
           <img className="foto-sobre-mi" src={fotoSobreMi} alt="fotografía del desarrollador"></img>
           <div className= "div-borde-blanco">
               <h2>Diseñar no es un problema para mí. Soy diseñador web y programador en Python</h2>
-              <p> Actualmente brindo mis servicios en <em>Upwork.com</em> en el area de ingeniería y programación, principalmente en Matlab y en Python. Asimismo, trabajo en el desarrollo del backend para aplicaciones en Android y en el desarrollo web. <br></br>
-              Adicionalmente, brindo clases de química en idioma inglés desde hace mas de 5 años en la plataforma <em>Tutor.com</em></p>
+              <p> Actualmente brindo mis servicios en <em>Upwork.com</em> en el área de ingeniería y programación, principalmente en Matlab y en Python. Asimismo, trabajo en el desarrollo del backend para aplicaciones en Android y en el desarrollo web. <br></br>
+              Adicionalmente, brindo clases de química en idioma inglés desde hace 7 años en la plataforma <em>Tutor.com</em></p>
               <a href="#servicios">
                   <button className="services-button">
                   <i className="fa-solid fa-arrow-right-long flechas-icons"></i>
