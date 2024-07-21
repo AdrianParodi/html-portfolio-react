@@ -1,4 +1,4 @@
-# Desarrollo en React de Portafolio
+# Desarrollo de Portafolio en React 
 
 En este repositorio se puede encontrar mi implementacion personal del siguiente portafolio:
 
@@ -11,8 +11,8 @@ Las distintas secciones de la página web fueron separadas en lo que se denomina
 La ventaja de React es que el código se puede reutilizar sin tener que duplicar tanto codigo HTML. 
 
 ## Deployment
-El deployment de la página web se realizó utilizando Vercel, que permite generar una conexion con un proyecto de github desarrollado en React y generar la pagina web. Cabe mencionar que el deployment del proyecto utilizando solamente Github no es posible, ya que los node modules del proyecto no son subidos a github al realizar los distintos push.
+El deployment de la página web se realizó utilizando Vercel, que permite generar una conexión con un proyecto de github desarrollado en React y generar la página web. Cabe mencionar que el deployment del proyecto utilizando solamente Github no es posible, ya que los node modules del proyecto no son subidos a Github al realizar los distintos push.
 
-Se puede acceder a la pagina web implementada en el siguiente link:
+Se puede acceder a la página web implementada en el siguiente link:
 
 https://html-portfolio-react-q7azpt9t2-adrian-parodis-projects.vercel.app/#testimonios
