@@ -1,0 +1,14 @@
+.contenedor-testimonios{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    border: none;
+    padding-top: 25px;
+}
+
+
+
+
