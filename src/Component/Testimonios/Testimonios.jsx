@@ -12,16 +12,9 @@ const Testimonios=()=>{
         {id:2, foto:testimonio2, descripcion:"Pude ahorrar muchas horas de trabajo rutinario con el desarrollo que me brindó Adrián para extraer datos desde archivos PDF. Muchas gracias!"}
     ]
 
-
-    console.log(listaTestimonios)
-
     return(
-        // Seccion de testimonios
-        <section>
-            <h1>
-                Testimonios
-            </h1>
-        
+        <section id="testimonios">
+            <h1>Testimonios</h1>
             <div className='contenedor-testimonios'>
                 {listaTestimonios.map(testimonio=><CardTestimonio foto={testimonio.foto} descripcion={testimonio.descripcion}/>
             )
