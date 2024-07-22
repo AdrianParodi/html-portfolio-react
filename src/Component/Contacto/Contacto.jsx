@@ -10,6 +10,10 @@ const Contacto=()=>{
 
   function manejarEnvio(e){
     e.preventDefault()
+    console.log(nombre)
+    console.log(apellido)
+    console.log(email)
+    console.log(mensaje)
 
   }
 
@@ -23,15 +27,15 @@ const Contacto=()=>{
           <input type="text" id="fname" name="fname" placeholder="Nombre *" value={nombre} onChange={(e)=>setNombre(e.target.value)}></input>
         </div>
         <div>
-          <input type="text" id="lname" name="lname" placeholder="Apellido *"></input>
+          <input type="text" id="lname" name="lname" placeholder="Apellido *" value={apellido} onChange={(e)=>setApellido(e.target.value)}></input>
         </div>
         
         <div>
-          <input type="email" id="email" name="email" placeholder="Email *"></input>
+          <input type="email" id="email" name="email" placeholder="Email *" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
         </div>
 
         <div>
-          <textarea id="mensaje" name="mensaje" required placeholder="Mensaje *"></textarea>
+          <textarea id="mensaje" name="mensaje" required placeholder="Mensaje *" value={mensaje} onChange={(e)=>setMensaje(e.target.value)} ></textarea>
         </div>
 
         <div>
