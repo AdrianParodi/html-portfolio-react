@@ -15,15 +15,15 @@ import Contacto from './Component/Contacto/Contacto.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Header/>
-    <Hero/>
-    <SobreMi/>
-    <Habilidades/>
-    <Proyectos/>
-    <Servicios/>
-    <Testimonios/>
-    <Contacto/>
-    <Footer/>
-  </React.StrictMode>,
+    <main>
+      <Header/>
+      <Hero/>
+      <SobreMi/>
+      <Habilidades/>
+      <Proyectos/>
+      <Servicios/>
+      <Testimonios/>
+      <Contacto/>
+      <Footer/>
+    </main>
 )

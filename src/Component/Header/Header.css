@@ -3,7 +3,6 @@ header{
     position: fixed;
     box-sizing: border-box;
     top: 0;
-    /* border: 1px solid red; */
     width: calc(100% + var(--general-lateral-margin)); /* Ancho del header, restando los márgenes del body */
     margin-left: calc(-1*var(--general-lateral-margin)); /* Compensa el margen izquierdo del body */
     margin-right: calc(-1*var(--general-lateral-margin)); /* Compensa el margen derecho del body */
@@ -30,7 +29,7 @@ header{
 
 .header-container a{
     font-size:18px;
-    font-weight: 500;
+    font-weight: 600;
     /* text-decoration: none; */
     color:var(--color1);
 } 
@@ -38,6 +37,7 @@ header{
 .header-izq{
     display: flex;
     align-items: center;
+    padding: 0px;
 }
 
 .header-izq .portafolio{
@@ -85,14 +85,15 @@ nav a:hover{
     padding: 10px;
     border-radius: 20px;
     border: 1px solid var(--color2);
-    background-color: var(--background-color);
-    color: var(--color2);
+    background-color: var(--color2);
+    color: var(--background-color);
     transition: var(--transition-buttons);
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .small-button:hover{
-    background: var(--color2);
-    color: var(--background-color);
+    background: var(--background-color);
+    color: var(--color2);
     cursor: pointer;
 }
