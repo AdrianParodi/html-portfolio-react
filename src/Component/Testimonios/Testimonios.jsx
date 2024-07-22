@@ -7,16 +7,16 @@ import testimonio2 from '/img/Testimonio2.png'
 
 const Testimonios=()=>{
     const listaTestimonios=[
-        {id:1, foto:testimonio1, descripcion: "Adrián me ayudó a mover parte de dos aplicaciones Android a un servidor web, reduciendo el tamaño de éstas y haciéndolas mas accesible para los usuarios. Gracias!"},
+        {key:1, foto:testimonio1, descripcion: "Adrián me ayudó a mover parte de dos aplicaciones Android a un servidor web, reduciendo el tamaño de éstas y haciéndolas mas accesible para los usuarios. Gracias!"},
 
-        {id:2, foto:testimonio2, descripcion:"Pude ahorrar muchas horas de trabajo rutinario con el desarrollo que me brindó Adrián para extraer datos desde archivos PDF. Muchas gracias!"}
+        {key:2, foto:testimonio2, descripcion:"Pude ahorrar muchas horas de trabajo rutinario con el desarrollo que me brindó Adrián para extraer datos desde archivos PDF. Muchas gracias!"}
     ]
 
     return(
         <section id="testimonios">
             <h1>Testimonios</h1>
             <div className='contenedor-testimonios'>
-                {listaTestimonios.map(testimonio=><CardTestimonio foto={testimonio.foto} descripcion={testimonio.descripcion}/>
+                {listaTestimonios.map(testimonio=><CardTestimonio key={testimonio.key} foto={testimonio.foto} descripcion={testimonio.descripcion}/>
             )
             }
             </div>

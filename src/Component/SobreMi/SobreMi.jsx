@@ -10,11 +10,11 @@ import fotoSobreMi from '/img/sobre mi.jpeg'
 const SobreMi=()=>{
 
   const tarjetasDestacado = [
-    {titulo:"Diseño Web", icono:faDesktop, descripcion: "Foco en el diseño responsive de sitios web y sus funcionalidad con JS."},
+    {key:1, titulo:"Diseño Web", icono:faDesktop, descripcion: "Foco en el diseño responsive de sitios web y sus funcionalidad con JS."},
 
-    {titulo:"Backend de aplicaciones" , icono:faMobileScreenButton , descripcion:"Desarrollo de funcionalidades para 2 aplicaciones disponibles en la App Store de Google."},
+    {key:2, titulo:"Backend de aplicaciones" , icono:faMobileScreenButton , descripcion:"Desarrollo de funcionalidades para 2 aplicaciones disponibles en la App Store de Google."},
 
-    {titulo:"+ 90% de éxito" , icono:faChartLine , descripcion: "En proyectos desarrollados como freelancer."}
+    {key:3, titulo:"+ 90% de éxito" , icono:faChartLine , descripcion: "En proyectos desarrollados como freelancer."}
   ]
 
     return(
@@ -40,7 +40,7 @@ const SobreMi=()=>{
       {/* <!-- Subseccion de los cuadros con borde amarillo e imagenes --> */}
       <div className="contenedor-destacados">
 
-        {tarjetasDestacado.map(tarjetaDestacado => <CardDestacado titulo={tarjetaDestacado.titulo} icono={tarjetaDestacado.icono} descripcion={tarjetaDestacado.descripcion}/>
+        {tarjetasDestacado.map(tarjetaDestacado => <CardDestacado key={tarjetaDestacado.key} titulo={tarjetaDestacado.titulo} icono={tarjetaDestacado.icono} descripcion={tarjetaDestacado.descripcion}/>
       )
       }
       </div>
