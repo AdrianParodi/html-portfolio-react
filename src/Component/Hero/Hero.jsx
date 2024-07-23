@@ -26,7 +26,7 @@ const Hero=()=>{
                 <Heading as='h1' fontSize={h1fS} marginBottom='40px'>Hola, soy Adrián <br/>
                 Programador y diseñador web</Heading>
                 <Text  fontSize={pfS} lineHeight={lineHeight}>Ingeniero químico con marcado perfil analítico y formación de doctorado. <br/> 
-                Ofrezco servicios en el area de ingeniería, desarrollo del backend de aplicaciones y diseño de páginas web.
+                Ofrezco servicios en el área de ingeniería, desarrollo del backend de aplicaciones y diseño de páginas web.
                 </Text>
 
             <Flex className="contenedor-dos-botones" flexDirection='row' justifyContent='space-between' my='25px'>
