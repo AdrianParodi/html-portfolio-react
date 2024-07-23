@@ -14,7 +14,7 @@ const Header=()=>{
     const fW1 = 600 //fontWeight
 
     return(
-        <Flex as='header' alignItems="center" border='1px solid red' width='80%'  marginLeft='auto'
+        <Flex as='header' alignItems="center" marginLeft='auto'
         marginRight='auto' bg={colors.color1}>
             {/* <Flex className="header-container" justifyContent='space-between'> */}
 
