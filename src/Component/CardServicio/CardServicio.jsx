@@ -1,4 +1,4 @@
-import './CardServicio.css'
+// import './CardServicio.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const CardServicio=({titulo, icono, descripcion})=>{

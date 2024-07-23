@@ -1,4 +1,4 @@
-import './CardTestimonio.css'
+// import './CardTestimonio.css'
 
 const CardTestimonio=({foto, descripcion})=>{
     return (

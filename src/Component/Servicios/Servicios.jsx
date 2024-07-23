@@ -1,4 +1,4 @@
-import './Servicios.css'
+// import './Servicios.css'
 import CardServicio from '../CardServicio/CardServicio.jsx'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 

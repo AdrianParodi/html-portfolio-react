@@ -1,4 +1,4 @@
-import './SobreMi.css'
+// import './SobreMi.css'
 import CardDestacado from '../CardDestacado/CardDestacado';
 
 // Iconos seccion Sobre mi

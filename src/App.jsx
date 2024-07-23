@@ -5,10 +5,10 @@ import fotoSobreMi from '/img/sobre mi.jpeg'
 // import testimonio2 from '/img/Testimonio2.png'
 
 // Import de archivos css
-import './normalize.css'
-import './App.css'
-import '@fortawesome/fontawesome-free/css/all.css';
-import './responsive.css'
+// 
+// import './App.css'
+// import '@fortawesome/fontawesome-free/css/all.css';
+// import './responsive.css'
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 

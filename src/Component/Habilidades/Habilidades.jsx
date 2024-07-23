@@ -1,4 +1,4 @@
-import './Habilidades.css'
+// import './Habilidades.css'
 import CardHabilidad from '../CardHabilidad/CardHabilidad.jsx'
 
 // Iconos seccion Habilidades

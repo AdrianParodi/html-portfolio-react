@@ -1,4 +1,4 @@
-import './Proyectos.css'
+// import './Proyectos.css'
 import CardProyecto from '../CardProyecto/CardProyecto.jsx'
 
 const Proyectos=()=>{

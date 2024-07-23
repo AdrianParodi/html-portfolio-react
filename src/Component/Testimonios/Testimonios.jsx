@@ -1,4 +1,4 @@
-import './Testimonios.css'
+// import './Testimonios.css'
 import CardTestimonio from '../CardTestimonio/CardTestimonio.jsx'
 
 import testimonio1 from '/img/Testimonio1.png'

@@ -1,4 +1,4 @@
-import './CardHabilidad.css'
+// import './CardHabilidad.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 

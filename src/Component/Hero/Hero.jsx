@@ -1,4 +1,4 @@
-import './Hero.css'
+// import './Hero.css'
 import fotoPerfil from '/img/CV.jpeg'
 
 const Hero=()=>{

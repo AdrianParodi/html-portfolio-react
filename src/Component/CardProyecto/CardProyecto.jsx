@@ -1,4 +1,4 @@
-import './CardProyecto.css'
+// import './CardProyecto.css'
 
 
 const CardProyecto=({titulo, descripcion})=>{
