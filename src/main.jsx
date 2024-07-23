@@ -4,10 +4,11 @@ import ReactDOM from 'react-dom/client'
 // import './index.css'
 import './normalize.css'
 import {ChakraProvider} from '@chakra-ui/react'
+import theme from './themes/themes.js';
 
 import Header from './Component/Header/Header.jsx'
+import Hero from './Component/Hero/Hero.jsx'
 // import Footer from './Component/Footer/Footer.jsx'
-// import Hero from './Component/Hero/Hero.jsx'
 // import SobreMi from './Component/SobreMi/SobreMi.jsx'
 // import Habilidades from './Component/Habilidades/Habilidades.jsx'
 // import Proyectos from './Component/Proyectos/Proyectos.jsx'
@@ -18,10 +19,10 @@ import Header from './Component/Header/Header.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <main>
-      <ChakraProvider>
+      <ChakraProvider theme={theme}>
         <Header/>
-        {/* <Hero/>
-        <SobreMi/>
+        <Hero/>
+        {/* <SobreMi/>
         <Habilidades/>
         <Proyectos/>
         <Servicios/>

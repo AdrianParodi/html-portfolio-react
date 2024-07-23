@@ -1,6 +1,6 @@
 // import './Header.css'
 import {Button, Box, Link, Image, Flex,} from '@chakra-ui/react'
-import { colors } from '../../themes/colors.js'; // Colores para la página web
+import { colors } from '../../themes/themes.js'; // Colores para la página web
 // color1, color2, color3
 
 
