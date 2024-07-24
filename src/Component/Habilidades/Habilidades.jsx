@@ -1,6 +1,8 @@
 // import './Habilidades.css'
 import CardHabilidad from '../CardHabilidad/CardHabilidad.jsx'
 
+import {Text, Flex} from '@chakra-ui/react'
+
 // Iconos seccion Habilidades
 import {faPython} from '@fortawesome/free-brands-svg-icons';
 import {faDesktop, faMobileScreenButton} from '@fortawesome/free-solid-svg-icons';
@@ -18,16 +20,16 @@ const Habilidades=()=>{
 
     return(
         
-      <section id="habilidades">
-        <h1>Habilidades</h1>
+      <Flex as='section' id="habilidades" flexDirection='column' >
+        <Text as='h1'>Habilidades</Text>
         {/* <!-- Subseccion con los cuadros amarillos e íconos --> */}
-        <section className="contenedor-habilidades" >
+        <Flex className="contenedor-habilidades" justifyContent='space-between'>
           {tarjetasHabilidades.map(tarjetaHabilidad => <CardHabilidad key={tarjetaHabilidad.key} titulo={tarjetaHabilidad.titulo} icono={tarjetaHabilidad.icono} descripcion={tarjetaHabilidad.descripcion}/>
         )
         }
 
-      </section>
-    </section>
+      </Flex>
+    </Flex>
     )
 }
 
