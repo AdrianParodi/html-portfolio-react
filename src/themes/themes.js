@@ -13,20 +13,21 @@ const theme = extendTheme({
     styles: {
       global: {
         'h1': {
-          fontSize: '2xl',
+          fontSize: '4xl',
           fontWeight: 'bold',
           color: 'color2'
         },
         'h2': {
-          fontSize: 'xl',
+          fontSize: '2xl',
           fontWeight: 'semibold',
+        //   color:'none'
         },
         'h3': {
-          fontSize: 'md',
+          fontSize: 's',
           fontWeight: 'semibold',
         },
         'p': {
-          fontSize: 'md',
+          fontSize: 'lg',
           lineHeight: '40px',
           color: 'color2'
         },

@@ -17,8 +17,8 @@ const Hero=()=>{
     return(
         <Flex as="section" className="hero" id="hero" flexDirection='row' justifyContent='space-between' paddingX='10%' my='50px' bg={colors.color1} color={colors.color2}>
             <Flex flexDirection='column' paddingRight='200px' >
-                <Heading as='h1' marginBottom='40px'>Hola, soy Adrián <br/>
-                Programador y diseñador web</Heading>
+                <Text as='h1' marginBottom='40px'>Hola, soy Adrián <br/>
+                Programador y diseñador web</Text>
                 <Text  >Ingeniero químico con marcado perfil analítico y formación de doctorado. <br/> 
                 Ofrezco servicios en el área de ingeniería, desarrollo del backend de aplicaciones y diseño de páginas web.
                 </Text>
