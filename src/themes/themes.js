@@ -13,12 +13,12 @@ const theme = extendTheme({
     styles: {
       global: {
         'h1': {
-          fontSize: '4xl',
+          fontSize: ['2xl','3xl','4xl'],
           fontWeight: 'bold',
           color: 'color2'
         },
         'h2': {
-          fontSize: '2xl',
+          fontSize: ['l','xl','2xl'],
           fontWeight: 'semibold',
         //   color:'none'
         },
@@ -27,12 +27,12 @@ const theme = extendTheme({
           fontWeight: 'semibold',
         },
         'p': {
-          fontSize: 'lg',
-          lineHeight: '40px',
+          fontSize: ['md','md','lg'],
+          lineHeight: ['25px','30px','35px','40px', null, null],
           color: 'color2'
         },
         'section': {
-          paddingX: '10%',
+          paddingX: ['2%','4%','8%','10%', null, '15%']
         },
         'body': {
           bg: 'color1',  // Usa el color definido en el objeto colors

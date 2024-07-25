@@ -17,7 +17,7 @@ import Habilidades from './Component/Habilidades/Habilidades.jsx'
 import Proyectos from './Component/Proyectos/Proyectos.jsx'
 import Servicios from './Component/Servicios/Servicios.jsx'
 import Testimonios from './Component/Testimonios/Testimonios.jsx'
-// import Contacto from './Component/Contacto/Contacto.jsx'
+import Contacto from './Component/Contacto/Contacto.jsx'
 import Footer from './Component/Footer/Footer.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -30,7 +30,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Proyectos/>
         <Servicios/>
         <Testimonios/>
-        {/* <Contacto/> */}
+        <Contacto/>
         <Footer/> 
     </main>
   </ChakraProvider>

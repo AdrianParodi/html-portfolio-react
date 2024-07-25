@@ -31,7 +31,7 @@ const SobreMi=()=>{
       {/* <!-- Subseccion con la foto y el cuadro de borde blanco --> */}
       <Text as='h1'>Sobre mí</Text>
       <Flex alignItems='center'> 
-          <Image src={fotoSobreMi} width={imgSize} height={imgSize} borderRadius='50%' alt="fotografía del desarrollador" mr='25px'></Image>
+          <Image src={fotoSobreMi} width={['0px','0px','150px','380px']} height={['0px','0px','150px','380px']} borderRadius='50%' alt="fotografía del desarrollador" mr='25px'></Image>
           <Flex flexDirection='column'borderColor={colors.color2} borderStyle='dashed' borderWidth='1px' borderRadius='25px' px='20px' py='30px'>
               <Text as='h2' color={colors.color2}>Diseñar no es un problema para mí. Soy diseñador web y programador en Python</Text>
               <Text my='30px'> Actualmente brindo mis servicios en <em>Upwork.com</em> en el área de ingeniería y programación, principalmente en Matlab y en Python. Asimismo, trabajo en el desarrollo del backend para aplicaciones en Android y en el desarrollo web. <br/>
