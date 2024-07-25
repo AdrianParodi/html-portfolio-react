@@ -15,26 +15,26 @@ const Hero=()=>{
     const buttonBR = '25px'
 
     return(
-        <Flex as="section" className="hero" id="hero" flexDirection='row' justifyContent='space-between' paddingX='10%' my='50px' bg={colors.color1} color={colors.color2}>
-            <Flex flexDirection='column' paddingRight='200px' >
-                <Text as='h1' marginBottom='40px'>Hola, soy Adrián <br/>
+        <Flex as="section" className="hero" id="hero" flexDirection='row' justifyContent='space-between' alignItems='center' maxWidth='100%' paddingX={['2%','4%','8%','10%', null, '15%']} my={['50px',null,null,null,'80px','90px']} bg={colors.color1} color={colors.color2} >
+            <Flex flexDirection='column' textAlign='left' maxWidth={['100%',null,'60%']}>
+                <Text as='h1' mb='40px' px='5px'>Hola, soy Adrián <br/>
                 Programador y diseñador web</Text>
                 <Text  >Ingeniero químico con marcado perfil analítico y formación de doctorado. <br/> 
                 Ofrezco servicios en el área de ingeniería, desarrollo del backend de aplicaciones y diseño de páginas web.
                 </Text>
 
-            <Flex className="contenedor-dos-botones" flexDirection='row' justifyContent='space-between' my='25px'>
+            <Flex className="contenedor-dos-botones" flexDirection='row' justifyContent='space-between'  my='25px'>
                 <Link href="#contacto">
-                    <Button bg={colors.color3} color={colors.color1} fontSize={fS1} fontWeight={fW1} width={buttonWidth} paddingY={buttonPY} borderRadius={buttonBR}>Contratarme</Button>
+                    <Button bg={colors.color3} color={colors.color1} fontSize={['l','l','l','xl']} fontWeight={fW1} width={['145px',null,null,null,'180px','200px']} py={['5px','8px','20px','25px']} borderRadius={buttonBR} mr={['15px', '25px']}>Contratarme</Button>
                 </Link>
                 
                 <Link href="#sobre-mi">
-                    <Button bg={colors.color3} color={colors.color1} fontSize={fS1} fontWeight={fW1} width={buttonWidth}  paddingY={buttonPY} borderRadius={buttonBR} marginRight='160px'>Sobre mí</Button>
+                    <Button bg={colors.color3} color={colors.color1} fontSize={['l','l','l','xl']} fontWeight={fW1} width={['145px',null,null,null,'180px','200px']} py={['5px','8px','20px','25px']} borderRadius={buttonBR} mr='160px'>Sobre mí</Button>
                 </Link>
                 </Flex>
             </Flex>
 
-            <Image width={imgSize} height={imgSize} borderRadius='50%' className="foto-perfil" src={fotoPerfil} alt="rostro del desarrollador"></Image>
+            <Image width={['0px','0px','220px','280px','380px']} height={['0px','0px','220px','280px','380px']} borderRadius='50%' className="foto-perfil" src={fotoPerfil} alt="rostro del desarrollador"></Image>
         </Flex>
     )
 }
