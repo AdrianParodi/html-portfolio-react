@@ -1,7 +1,5 @@
-// import './Servicios.css'
 import CardServicio from '../CardServicio/CardServicio.jsx'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-
+import {Flex, Text} from '@chakra-ui/react'
 // Iconos seccion Servicios
 import { faGears, faNetworkWired, faComments } from '@fortawesome/free-solid-svg-icons';
 import {faPython} from '@fortawesome/free-brands-svg-icons';
@@ -10,7 +8,7 @@ import {faPython} from '@fortawesome/free-brands-svg-icons';
 const Servicios=()=>{
     const tarjetasServicios=[
         {key:1, icono:faNetworkWired,
-            titulo:"Diseño Web", descripcion:"¡Potencia tu presencia en línea! Ofrezco servicios profesionales de creación de páginas web utilizando HTML, CSS y JavaScript. Ya sea que necesites una página moderna, responsive y con alto rendimiento, puedo transformar tu visión en una realidad"       
+            titulo:"Diseño Web", descripcion:"¡Potencia tu presencia en línea! Ofrezco servicios profesionales de creación de páginas web utilizando HTML, CSS y JavaScript. Ya sea que necesites una página moderna, responsive y con alto rendimiento, puedo transformar tu visión en una realidad."       
         },
 
         {key:2, icono:faGears,
@@ -27,18 +25,18 @@ const Servicios=()=>{
     
     return(
        
-      <section id="servicios">
-      <h1>Servicios</h1>
+      <Flex as='section' id="servicios" flexDirection='column' >
+      <Text as='h1'>Servicios</Text>
 
       {/* <!-- Subseccion con las divisiones para cada recuadro --> */}
 
-        <div className='contenedor-servicios'>
+        <Flex className='contenedor-servicios' flexWrap='wrap' justifyContent='space-between'>
             {tarjetasServicios.map(
                 tarjetaServicio=><CardServicio key={tarjetaServicio.key} titulo={tarjetaServicio.titulo} icono={tarjetaServicio.icono}  descripcion={tarjetaServicio.descripcion}/>
             )
         }
-        </div>
-    </section>     
+        </Flex>
+    </Flex>     
     )
 }
 

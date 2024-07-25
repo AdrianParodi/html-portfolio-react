@@ -35,7 +35,7 @@ const SobreMi=()=>{
           <Flex flexDirection='column'borderColor={colors.color2} borderStyle='dashed' borderWidth='1px' borderRadius='25px' px='20px' py='30px'>
               <Text as='h2' color={colors.color2}>Diseñar no es un problema para mí. Soy diseñador web y programador en Python</Text>
               <Text my='30px'> Actualmente brindo mis servicios en <em>Upwork.com</em> en el área de ingeniería y programación, principalmente en Matlab y en Python. Asimismo, trabajo en el desarrollo del backend para aplicaciones en Android y en el desarrollo web. <br/>
-              Adicionalmente, brindo clases de química en idioma inglés desde hace 7 años en la plataforma <em>Tutor.com</em></Text>
+              Adicionalmente, brindo clases de química en idioma inglés desde hace 7 años en la plataforma <em>Tutor.com.</em></Text>
               <Link href="#servicios">
               
                   <Button bg={colors.color3} color={colors.color1} borderRadius='20px'  fontSize={fS1} fontWeight= {fW1} width='400px' py='25px'>
