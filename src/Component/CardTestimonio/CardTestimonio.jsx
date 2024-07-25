@@ -13,7 +13,7 @@ const CardTestimonio=({foto, descripcion})=>{
                 <Box as="span" className="fa fa-star" color={colors.color3} mx="1" />
                 <Box as="span" className="fa fa-star" color={colors.color3} mx="1" />
     </Flex>
-            <Text as='p'>{descripcion}</Text>
+            <Text as='p' lineHeight='25px'>{descripcion}</Text>
         </Flex>
     )
 }
