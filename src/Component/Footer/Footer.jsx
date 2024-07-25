@@ -1,33 +1,34 @@
-// import './Footer.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-
+import { faLinkedin, faGithub, faUpwork } from '@fortawesome/free-brands-svg-icons';
+import {Flex, Text, Link} from '@chakra-ui/react'
+import {colors} from '../../themes/themes.js'
 
 const Footer=()=>{
     return(
-        <section className="footer-section">
-            <div>
-            <p>© 2024 - Desarrollado por Adrian Parodi</p>
-            </div>
+        <Flex as='section' className="footer-section" justifyContent='space-between' alignItems='center' my='25px'>
+            <Flex>
+            <Text as='p'>© 2024 - Desarrollado por Adrián Parodi</Text>
+            </Flex>
             
-            <div className="div-iconos">
-            <a href="https://www.linkedin.com/in/adrian-parodi/" target="_blank">
-                <i className="fa-brands fa-linkedin footer-icons"></i>
-            </a>
+            <Flex className="div-iconos" justifyContent='space-between'  width='20%'>
+                <Link href="https://www.linkedin.com/in/adrian-parodi/" target="_blank">
+                    <FontAwesomeIcon icon={faLinkedin} color={colors.color3} size='3x'/>
+                </Link>
 
-            <a href="https://github.com/Adrieto" target="_blank">
-                <i className="fa-brands fa-github footer-icons"></i>
-            </a>
+                <Link href="https://github.com/Adrieto" target="_blank">
+                    <FontAwesomeIcon icon={faGithub} color={colors.color3} size='3x'/>
+                </Link>
 
 
-            <a href="https://www.upwork.com/freelancers/~01dacc95db22177ffa?viewMode=1" target="_blank">
-                <i className="fa-brands fa-upwork footer-icons"></i>
-            </a>
-            </div>
+                <Link href="https://www.upwork.com/freelancers/~01dacc95db22177ffa?viewMode=1" target="_blank">
+                    <FontAwesomeIcon icon={faUpwork} color={colors.color3} size='3x'/>
+                </Link>
+            </Flex>
             
-            <div>
-            <p>parodiadrian3@gmail.com</p>
-            </div>
-        </section>   
+            <Flex>
+            <Text>parodiadrian3@gmail.com</Text>
+            </Flex>
+        </Flex>   
     )
 }
 
