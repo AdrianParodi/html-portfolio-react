@@ -8,7 +8,7 @@ const CardServicio=({titulo, icono, descripcion})=>{
     const fS1 = '18px' //fontSize
     const fW1 = 600 //fontWeight
     return(
-        <Flex className='tarjeta-servicios' flexDirection='column'  width='30%' borderStyle='dashed' borderColor={colors.color3} borderWidth='1px' borderRadius='20px' my='40px' p='20px'>
+        <Flex className='tarjeta-servicios' flexDirection='column'  width='30%' borderStyle='dashed' borderColor={colors.color3} borderWidth='1px' borderRadius='20px' my='20px' p='20px'>
             <FontAwesomeIcon className='icono-servicio'  icon={icono} color={colors.color3} size='5x'/>
             <Flex className="textoMasBoton" flexDirection='column' alignItems='center' textAlign='center' flex='1'>
                 <Text as='h2' color={colors.color2} my='25px'>{titulo}</Text>
