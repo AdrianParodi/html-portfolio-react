@@ -47,7 +47,7 @@ const SobreMi=()=>{
           </Flex>
       </Flex>
       {/* <!-- Subseccion de los cuadros con borde amarillo e imagenes --> */}
-      <Flex justifyContent='space-between'>
+      <Flex justifyContent='space-between' border='2px solid green' width='100%' flexGrow={1} minWidth={0} flexWrap='wrap'>
 
         {tarjetasDestacado.map(tarjetaDestacado => <CardDestacado key={tarjetaDestacado.key} titulo={tarjetaDestacado.titulo} icono={tarjetaDestacado.icono} descripcion={tarjetaDestacado.descripcion}/>
       )
