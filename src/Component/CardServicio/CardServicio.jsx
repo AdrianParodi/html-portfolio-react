@@ -1,6 +1,6 @@
 // import './CardServicio.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {Text, Flex, Button} from '@chakra-ui/react'
+import {Text, Flex, Box, Button} from '@chakra-ui/react'
 import {colors} from '../../themes/themes.js'
 
 
@@ -9,7 +9,7 @@ const CardServicio=({titulo, icono, descripcion})=>{
     const fW1 = 600 //fontWeight
     return(
         <Flex className='tarjeta-servicios' flexDirection='column'  width='30%' borderStyle='dashed' borderColor={colors.color3} borderWidth='1px' borderRadius='20px' my='20px' p='20px'>
-            <FontAwesomeIcon className='icono-servicio'  icon={icono} color={colors.color3} size='5x'/>
+            <Box as ={FontAwesomeIcon}   icon={icono} color={colors.color3} fontSize={['2.5rem', '3rem', '4rem', '5rem']}/>
             <Flex className="textoMasBoton" flexDirection='column' alignItems='center' textAlign='center' flex='1'>
                 <Text as='h2' color={colors.color2} my='25px'>{titulo}</Text>
                 <Text as='p' color={colors.color2} my='15px' lineHeight='25px'>{descripcion} </Text>
