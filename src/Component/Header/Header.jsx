@@ -15,7 +15,7 @@ const Header=()=>{
 
     return(
         <Flex as='header' alignItems="center" marginLeft='auto'
-        marginRight='auto' bg={colors.color1} height='4.2rem' position='fixed' top='0' zIndex='10' width='100%' pt='5px'>
+        marginRight='auto' bg={colors.color1} height='4.2rem' position='fixed' top='0' zIndex='10' width='100%' pt='5px' >
             {/* <Flex className="header-container" justifyContent='space-between'> */}
 
             <Flex as='section' display='flex' flexDirection='row' justifyContent='space-between' width='100%'>

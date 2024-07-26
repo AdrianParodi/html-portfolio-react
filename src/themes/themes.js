@@ -18,29 +18,31 @@ const theme = extendTheme({
           color: 'color2'
         },
         'h2': {
-          fontSize: ['l','xl','2xl'],
+          fontSize: ['lg','xl','2xl'],
           fontWeight: 'semibold',
         //   color:'none'
         },
         'h3': {
-          fontSize: 's',
+          fontSize: 'sm',
           fontWeight: 'semibold',
         },
         'p': {
           fontSize: ['md','md','lg'],
-          lineHeight: ['25px','30px','35px','40px', null, null],
+          lineHeight: ['25px','30px','35px','40px'],
           color: 'color2'
         },
         'section': {
-          paddingX: ['2%','4%','8%','10%', null, '15%']
+          px: ['2%', '4%', '8%', '10%', null, '15%'],
         },
+
         'body': {
-          bg: 'color1',  // Usa el color definido en el objeto colors
+          bg: 'color1'
         },
         'button':{
             bg: 'color3',
             color: 'color1'
         }
+
       },
     },
   });

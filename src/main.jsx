@@ -30,7 +30,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Proyectos/>
         <Servicios/>
         <Testimonios/>
-        <Contacto/>
+        {/* <Contacto/> */}
         <Footer/> 
     </main>
   </ChakraProvider>
