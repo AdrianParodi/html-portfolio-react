@@ -15,8 +15,8 @@ const Hero=()=>{
     const buttonBR = '25px'
 
     return(
-        <Flex as="section" className="hero" id="hero" flexDirection='row' justifyContent='space-between' alignItems='center' maxWidth='100%' paddingX={['2%','4%','8%','10%', null, '15%']} my={['50px',null,null,null,'80px','90px']} bg={colors.color1} color={colors.color2} >
-            <Flex flexDirection='column' textAlign='left' maxWidth={['100%',null,'60%']}>
+        <Flex as="section" className="hero" id="hero" flexDirection='row' justifyContent='space-between' alignItems='center' maxWidth='100%' paddingX={['2%','4%','8%','10%', null, '15%']} my={['50px',null,null,null,'80px','90px']} bg={colors.color1} color={colors.color2} border='1px solid red' >
+            <Flex flexDirection='column' textAlign='left' maxWidth={['100%',null,'60%']} >
                 <Text as='h1' mb='40px' px='5px'>Hola, soy Adrián <br/>
                 Programador y diseñador web</Text>
                 <Text  >Ingeniero químico con marcado perfil analítico y formación de doctorado. <br/> 
@@ -33,8 +33,9 @@ const Hero=()=>{
                 </Link>
                 </Flex>
             </Flex>
-
-            <Image width={['0px','0px','220px','280px','380px']} height={['0px','0px','220px','280px','380px']} borderRadius='50%' className="foto-perfil" src={fotoPerfil} alt="rostro del desarrollador"></Image>
+            <Flex>
+                <Image display={['none', 'none', 'block', 'block']} width={[null,null,'240px','280px','380px']} height={[null,null,'240px','280px','380px']} borderRadius='50%' className="foto-perfil" src={fotoPerfil} alt="rostro del desarrollador"></Image>
+            </Flex>
         </Flex>
     )
 }
