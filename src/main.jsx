@@ -20,6 +20,8 @@ import Testimonios from './Component/Testimonios/Testimonios.jsx'
 import Contacto from './Component/Contacto/Contacto.jsx'
 import Footer from './Component/Footer/Footer.jsx'
 
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ChakraProvider theme={theme}>
       <main>
@@ -30,7 +32,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Proyectos/>
         <Servicios/>
         <Testimonios/>
-        {/* <Contacto/> */}
+        <Contacto/>
         <Footer/> 
     </main>
   </ChakraProvider>

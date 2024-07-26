@@ -19,3 +19,4 @@ https://html-portfolio-react-q7azpt9t2-adrian-parodis-projects.vercel.app/#testi
 
 
 #### Se instalaron Chakra, Formik y Yup
+### Tambien react-scroll. Hablar del uso de UseState y useEffect junto con el menú de Chakra, para controlar los desplazamientos dentro del sitio.

@@ -6,7 +6,8 @@ import CardDestacado from '../CardDestacado/CardDestacado';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faDesktop, faMobileScreenButton, faChartLine, faArrowRightLong, faArrowLeftLong} from '@fortawesome/free-solid-svg-icons';
 
-import {Button, Link, Image, Flex, Text, Box} from '@chakra-ui/react'
+import {Button, Image, Flex, Text, Box} from '@chakra-ui/react'
+import {Link} from 'react-scroll'
 import { colors } from '../../themes/themes.js';
 import fotoSobreMi from '/img/sobre mi.jpeg'
 
@@ -25,6 +26,11 @@ const SobreMi=()=>{
     {key:3, titulo:"+ 90% de éxito" , icono:faChartLine , descripcion: "En proyectos desarrollados como freelancer."}
   ]
 
+        // Propiedades React-scroll
+        const smooth=true
+        const duration=1000
+        const offset=-75
+
     return(
       <Flex as="section" flexDirection='column' className="sobre-mi" id="sobre-mi" border='1px solid red' > 
          
@@ -37,7 +43,7 @@ const SobreMi=()=>{
               <Text as='h2' color={colors.color2}>Diseñar no es un problema para mí. Soy diseñador web y programador en Python</Text>
               <Text my='30px'> Actualmente brindo mis servicios en <em>Upwork.com</em> en el área de ingeniería y programación, principalmente en Matlab y en Python. Asimismo, trabajo en el desarrollo del backend para aplicaciones en Android y en el desarrollo web. <br/>
               Adicionalmente, brindo clases de química en idioma inglés desde hace 7 años en la plataforma <em>Tutor.com.</em></Text>
-              <Link href="#servicios">
+              <Link to="servicios" smooth={smooth} duration={duration} offset={offset}>
                 <Button bg={colors.color3} color={colors.color1} borderRadius='20px'  fontSize={['14px','16px','16px']} fontWeight= {['700','600']} alignItems='center' width={['98%','90%','100%','80%','66%','60%']} py={['15px','25px']}>
                     <Box as={FontAwesomeIcon} icon={faArrowRightLong} className="flechas-icons" marginRight={['10px','20px','15px']} color={colors.color1} fontSize={['15px','25px','20px']}/>
                     Consultar Servicios Disponibles
