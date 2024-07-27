@@ -1,4 +1,3 @@
-// import './CardProyecto.css'
 import {Text, Flex} from '@chakra-ui/react'
 import {colors} from '../../themes/themes.js'
 

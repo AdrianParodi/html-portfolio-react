@@ -1,4 +1,3 @@
-// import './SobreMi.css'
 import CardDestacado from '../CardDestacado/CardDestacado';
 
 // Iconos seccion Sobre mi
@@ -32,11 +31,11 @@ const SobreMi=()=>{
         const offset=-75
 
     return(
-      <Flex as="section" flexDirection='column' className="sobre-mi" id="sobre-mi" border='1px solid red'  my={['50px',null,null,null,'80px','90px']} > 
+      <Flex as="section" flexDirection='column' className="sobre-mi" id="sobre-mi" my={['50px',null,null,null,'80px','90px']} > 
          
       {/* <!-- Subseccion con la foto y el cuadro de borde blanco --> */}
       <Text as='h1'>Sobre mí</Text>
-      <Flex border='1px solid green' alignItems='center' ml={['0px']} width='auto'> 
+      <Flex alignItems='center' ml={['0px']} width='auto'> 
           <Image src={fotoSobreMi} display={['none', 'none', 'block', 'block']} width={[null,null,'240px','280px','380px']} height={[null,null,'240px','280px','380px']} borderRadius='50%' alt="fotografía del desarrollador"  mr='25px'></Image>
           
           <Flex flexDirection='column'borderColor={colors.color2} borderStyle='dashed' borderWidth='1px' borderRadius='25px' px={['5px','10px','20px']} py={['15px','25px','30px']} flexGrow={1} minWidth={0} >
@@ -53,7 +52,7 @@ const SobreMi=()=>{
           </Flex>
       </Flex>
       {/* <!-- Subseccion de los cuadros con borde amarillo e imagenes --> */}
-      <Flex justifyContent='space-between' border='2px solid green' width='100%' flexGrow={1} minWidth={0} flexWrap='wrap'>
+      <Flex justifyContent='space-between'  width='100%' flexGrow={1} minWidth={0} flexWrap='wrap'>
 
         {tarjetasDestacado.map(tarjetaDestacado => <CardDestacado key={tarjetaDestacado.key} titulo={tarjetaDestacado.titulo} icono={tarjetaDestacado.icono} descripcion={tarjetaDestacado.descripcion}/>
       )

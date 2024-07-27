@@ -1,4 +1,3 @@
-// import './CardDestacado.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Flex, Text, Box } from '@chakra-ui/react'
 import {colors} from '../../themes/themes.js'

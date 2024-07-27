@@ -1,4 +1,3 @@
-// import './Proyectos.css'
 import CardProyecto from '../CardProyecto/CardProyecto.jsx'
 import {Text, Flex, Link} from '@chakra-ui/react'
 import {colors} from '../../themes/themes.js'
@@ -13,7 +12,7 @@ const Proyectos=()=>{
     ]
     
     return(
-        <Flex as='section' id="proyectos" flexDirection='column' border='1px solid red'>
+        <Flex as='section' id="proyectos" flexDirection='column'>
             <Text as='h1'>Proyectos</Text>
                 <Flex className='contenedor-proyectos' justifyContent='space-between'>
                     {tarjetasProyectos.map(tarjetaProyecto => <CardProyecto key={tarjetaProyecto.key} titulo={tarjetaProyecto.titulo} descripcion={tarjetaProyecto.descripcion}/> 

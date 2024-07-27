@@ -1,4 +1,3 @@
-// import './CardHabilidad.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {colors} from '../../themes/themes.js'
 import {Flex, Text, Box} from '@chakra-ui/react'

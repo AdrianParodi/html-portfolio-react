@@ -19,7 +19,7 @@ const Servicios=()=>{
             titulo:"Desarrollo en Python", descripcion:"Simplifica tus procesos y automatiza tareas con mis servicios de desarrollo de scripts en Python. Ofrezco soluciones eficientes y personalizadas para optimizar tu flujo de trabajo y ahorrar tiempo. ¡Haz que Python trabaje para ti y maximiza tu productividad!"       
         },
         {key:4, icono:faPython,
-            titulo:"Consultoria", descripcion:"Optimiza tus procesos industriales con nuestras consultorías en ingeniería química. Especializados en programación y automatización, ofrecemos soluciones innovadoras para mejorar la eficiencia y reducir costos."       
+            titulo:"Consultoría", descripcion:"Optimiza tus procesos industriales con mis consultorías en ingeniería química. Especializado en programación y automatización, ofrezco soluciones innovadoras para mejorar la eficiencia y reducir costos."       
         }
     ]
     

@@ -59,11 +59,15 @@ const Header=()=>{
                 
                 <Flex as='nav' alignItems='center' justifyContent='space-evenly' color={colors.color2} flex='1' overflow='hidden' >
                     <Link to="sobre-mi" smooth={smooth} duration={duration} offset={offset}  fontSize={fS1} fontWeight={fW1} mx={marginNavbar}>Sobre mi</Link>
+                    
                     <Link to="habilidades" smooth={smooth} duration={duration} offset={offset}  fontSize={fS1} fontWeight={fW1} mx={marginNavbar}>Habilidades</Link>
+
                     <Link to="proyectos" smooth={smooth} duration={duration} offset={offset}  fontSize={fS1} fontWeight={fW1} mx={marginNavbar}>Proyectos</Link>
+
                     <Link to="servicios" smooth={smooth} duration={duration} offset={offset}  fontSize={fS1} fontWeight={fW1} mx={marginNavbar}>Servicios</Link>
+
                     <Link to="testimonios" smooth={smooth} duration={duration} offset={offset}  fontSize={fS1} fontWeight={fW1} mx={marginNavbar}>Testimonios</Link>
-                    <Link to="contacto" smooth={smooth} duration={duration} offset={offset}  fontSize={fS1} fontWeight={fW1} mx={marginNavbar}>Contacto</Link>
+                    
                     <Box as={FontAwesomeIcon} icon={faList} display='none'></Box> {/* Oculte el ícono usando estilo inline */}    
                 </Flex>
 
@@ -76,14 +80,12 @@ const Header=()=>{
 
             <Box display={['flex',null,null,'none']} justifyContent='center' width='100%'>
 
-                        {/* Implementación del menú para tamaños de pantalla pequeños */}
-                    <Menu isOpen={isOpen}>
-                        <MenuButton as={IconButton} onClick={handleMenuClick}
-                        aria-label='Options'
-                            icon={<FontAwesomeIcon icon={faBars} />}
-                            variant='outline' borderColor={colors.color1}/>
-                
-                        <MenuList>
+                {/* Implementación del menú para tamaños de pantalla pequeños */}
+                <Menu isOpen={isOpen}>
+                    <MenuButton as={IconButton} onClick={handleMenuClick} aria-label='Options'
+                    icon={<FontAwesomeIcon icon={faBars} />}
+                    variant='outline' borderColor={colors.color1}/>
+                    <MenuList>
                         <MenuItem> <Link to="hero" smooth={smooth} duration={duration} offset={offset}  onClick={() => handleLinkClick('hero')} > Portafolio </Link>
                         </MenuItem>
                         <MenuItem> <Link to="sobre-mi" smooth={smooth} duration={duration} offset={offset} onClick={() => handleLinkClick('sobre-mi')} > Sobre mí </Link>
@@ -98,8 +100,8 @@ const Header=()=>{
                         </MenuItem>
                         <MenuItem> <Link to="contacto" smooth={smooth} duration={duration} offset={offset} onClick={() => handleLinkClick('contacto')} > Contacto </Link>
                         </MenuItem>
-                        </MenuList>
-                    </Menu>
+                    </MenuList>
+                </Menu>
                 </Box>
         </Flex>
     )
