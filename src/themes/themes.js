@@ -33,14 +33,26 @@ const theme = extendTheme({
         },
         'section': {
           px: ['2%', '4%', '8%', '10%', null, '15%'],
+          my:['50px',null,null,null,'80px','90px']
         },
 
         'body': {
           bg: 'color1'
         },
+
         'button':{
             bg: 'color3',
             color: 'color1'
+        },
+
+        'a': {
+          fontSize: [null, null, null, '14px','16px', '18px'],
+          fontWeight: 600,
+          
+          _hover: {
+            cursor: 'pointer',
+            textDecoration: 'underline',
+          },
         }
 
       },

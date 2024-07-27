@@ -32,7 +32,7 @@ const SobreMi=()=>{
         const offset=-75
 
     return(
-      <Flex as="section" flexDirection='column' className="sobre-mi" id="sobre-mi" border='1px solid red' > 
+      <Flex as="section" flexDirection='column' className="sobre-mi" id="sobre-mi" border='1px solid red'  my={['50px',null,null,null,'80px','90px']} > 
          
       {/* <!-- Subseccion con la foto y el cuadro de borde blanco --> */}
       <Text as='h1'>Sobre mí</Text>

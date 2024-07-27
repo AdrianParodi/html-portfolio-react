@@ -20,3 +20,7 @@ https://html-portfolio-react-q7azpt9t2-adrian-parodis-projects.vercel.app/#testi
 
 #### Se instalaron Chakra, Formik y Yup
 ### Tambien react-scroll. Hablar del uso de UseState y useEffect junto con el menú de Chakra, para controlar los desplazamientos dentro del sitio.
+
+
+Algunos problemas encontrados:
+1) En el header o navbar tengo varias etiquetas <Link> (de react-scroll), pero la que dice 'Portafolio' no la pude hacer responsive en la misma linea, para cambiarle el tamaño de fuente. Averiguando, vi que hay que escribir un css para lograr esto. Usted nos dijo que nos olvidaramos del css. Por eso dejé esto con tamaño único

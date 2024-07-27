@@ -13,7 +13,7 @@ const Proyectos=()=>{
     ]
     
     return(
-        <Flex as='section' id="proyectos" flexDirection='column'>
+        <Flex as='section' id="proyectos" flexDirection='column' border='1px solid red'>
             <Text as='h1'>Proyectos</Text>
                 <Flex className='contenedor-proyectos' justifyContent='space-between'>
                     {tarjetasProyectos.map(tarjetaProyecto => <CardProyecto key={tarjetaProyecto.key} titulo={tarjetaProyecto.titulo} descripcion={tarjetaProyecto.descripcion}/> 

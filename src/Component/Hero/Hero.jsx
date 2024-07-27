@@ -20,7 +20,7 @@ const Hero=()=>{
     const offset=-75
 
     return(
-        <Flex as="section" className="hero" id="hero" flexDirection='row' justifyContent='space-between' alignItems='center' maxWidth='100%' paddingX={['2%','4%','8%','10%', null, '15%']} my={['50px',null,null,null,'80px','90px']} bg={colors.color1} color={colors.color2} border='1px solid red' >
+        <Flex as="section" className="hero" id="hero" flexDirection='row' justifyContent='space-between' alignItems='center' maxWidth='100%' paddingX={['2%','4%','8%','10%', null, '15%']} bg={colors.color1} color={colors.color2} border='1px solid red' >
             <Flex flexDirection='column' textAlign='left' maxWidth={['100%',null,'60%']} >
                 <Text as='h1' mb='40px' px='5px'>Hola, soy Adrián <br/>
                 Programador y diseñador web</Text>

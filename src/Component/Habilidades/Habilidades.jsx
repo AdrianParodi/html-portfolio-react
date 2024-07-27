@@ -17,7 +17,7 @@ const Habilidades=()=>{
 
     return(
         
-      <Flex as='section' id="habilidades" flexDirection='column' >
+      <Flex as='section' id="habilidades" flexDirection='column' border='1px solid red' >
         <Text as='h1'>Habilidades</Text>
         {/* <!-- Subseccion con los cuadros amarillos e íconos --> */}
         <Flex className="contenedor-habilidades" justifyContent='space-between'>

@@ -45,12 +45,13 @@ const Header=()=>{
 
     return(
         <Flex as='header' alignItems="center" marginLeft='auto'
-        marginRight='auto' bg={colors.color1} height='4.2rem' position='fixed' top='0' zIndex='10' width='100%' pt='5px' >
+        marginRight='auto' bg={colors.color1} height='5rem' position='fixed' top='0' zIndex='10' width='100%' pt='1rem' >
             {/* <Flex className="header-container" justifyContent='space-between'> */}
 
             <Flex as='section' display={['none',null,null,'flex']}flexDirection='row' justifyContent='space-between' width='100%' >
                 <Flex as='div' className="header-izq" alignItems="center" color={colors.color2} flexShrink='0'>
-                    <Link className="portafolio" to="hero" smooth={smooth} duration={duration} offset={offset}  textDecoration='none' fontSize={[null,null,null,'24px','28px','32px']} fontWeight='700'>
+                    <Link className="portafolio" as='h1' to="hero" smooth={smooth} duration={duration} offset={offset} style={{textDecoration:'none', fontSize:'30px', fontWeight:'700' 
+  }}>
                     Portafolio
                     </Link>
                     <Image src={bumeran} alt=""/>
