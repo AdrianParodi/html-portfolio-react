@@ -15,7 +15,7 @@ El deployment de la página web se realizó utilizando Vercel, que permite gener
 
 Se puede acceder a la página web implementada en el siguiente link:
 
-https://html-portfolio-react-q7azpt9t2-adrian-parodis-projects.vercel.app/#testimonios
+https://html-portfolio-react-q7azpt9t2-adrian-parodis-projects.vercel.app/
 
 
 #### Se instalaron Chakra, Formik y Yup

@@ -8,13 +8,15 @@ const Proyectos=()=>{
 
         {key:2, titulo:"ReactorD" , descripcion: <Text color={colors.color1} lineHeight='25px'>Colaborador principal en el desarrollo del  paquete <Link href="https://github.com/SalvadorBrandolin/reactord" target="_blank" color={colors.color1} fontWeight='bold'>ReactorD</Link> para el diseño de reactores en Python.</Text>},
         
-        {key:3, titulo:"Diseño web", descripcion: <Text color={colors.color1} lineHeight='25px'>Landing Pages. Aquí puedes ver un ejemplo: <Link href="https://adrieto.github.io/image-based-web-project/" target="_blank" color={colors.color1} fontWeight='bold'><br/> Ver Landing Page</Link></Text>}
+        {key:3, titulo:"Diseño web", descripcion: <Text color={colors.color1} lineHeight='25px'>Landing Pages. Aquí puedes ver un ejemplo: <Link href="https://adrieto.github.io/image-based-web-project/" target="_blank" color={colors.color1} fontWeight='bold'><br/> Ver Landing Page</Link></Text>},
+
+        {key:4, titulo:"Gestión de Inventarios con Java Script", descripcion: <Text color={colors.color1} lineHeight='25px'>Ejemplo simple de gestión de un inventario de productos  utilizando JS. <Link href="https://github.com/Adrieto/Gestion-Inventarios" target="_blank" color={colors.color1} fontWeight='bold'><br/> Ver Proyecto</Link></Text>}
     ]
     
     return(
-        <Flex as='section' id="proyectos" flexDirection='column'>
+        <Flex as='section' id="proyectos" flexDirection='column' justifyContent='space-between' flexWrap='wrap' border='1px solid red'>
             <Text as='h1'>Proyectos</Text>
-                <Flex className='contenedor-proyectos' justifyContent='space-between'>
+                <Flex className='contenedor-proyectos' justifyContent='space-between' flexWrap='wrap'>
                     {tarjetasProyectos.map(tarjetaProyecto => <CardProyecto key={tarjetaProyecto.key} titulo={tarjetaProyecto.titulo} descripcion={tarjetaProyecto.descripcion}/> 
                 )
                 }   
