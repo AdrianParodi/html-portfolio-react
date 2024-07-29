@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Button, Box, Image, Flex, ChakraProvider, IconButton} from '@chakra-ui/react'
+import {Button, Box, Image, Flex, IconButton} from '@chakra-ui/react'
 import {Menu, MenuButton, MenuList, MenuItem} from '@chakra-ui/react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faBars, faList } from '@fortawesome/free-solid-svg-icons';

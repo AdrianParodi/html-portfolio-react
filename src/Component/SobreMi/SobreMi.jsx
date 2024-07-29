@@ -43,8 +43,11 @@ const SobreMi=()=>{
               <Text my='30px'> Actualmente brindo mis servicios en <em>Upwork.com</em> en el área de ingeniería y programación, principalmente en Matlab y en Python. Asimismo, trabajo en el desarrollo del backend para aplicaciones en Android y en el desarrollo web. <br/>
               Adicionalmente, brindo clases de química en idioma inglés desde hace 7 años en la plataforma <em>Tutor.com.</em></Text>
               <Link to="servicios" smooth={smooth} duration={duration} offset={offset}>
-                <Button bg={colors.color3} color={colors.color1} borderRadius='20px'  fontSize={['14px','16px','16px']} fontWeight= {['700','600']} alignItems='center' width={['98%','90%','100%','80%','66%','60%']} py={['15px','25px']}>
-                    <Box as={FontAwesomeIcon} icon={faArrowRightLong} className="flechas-icons" marginRight={['10px','20px','15px']} color={colors.color1} fontSize={['15px','25px','20px']}/>
+                <Button bg={colors.color3} color={colors.color1} borderRadius='20px' borderColor={colors.color3} borderStyle='solid' borderWidth='1px' fontSize={['14px','16px','16px']} fontWeight= {['700','600']} alignItems='center' width={['98%','90%','100%','80%','66%','60%']} py={['15px','25px']} _hover={{
+                color: colors.color3, bg:colors.color1,
+                '.flechas-icons': { color: colors.color3 } // Cambia el color de los íconos al hacer hover
+  }}>
+                    <Box as={FontAwesomeIcon} icon={faArrowRightLong} className="flechas-icons" marginRight={['10px','20px','15px']} color={colors.color1} fontSize={['15px','25px','20px']} />
                     Consultar Servicios Disponibles
                     <Box as={FontAwesomeIcon} icon={faArrowLeftLong} className="flechas-icons" marginLeft={['10px','20px','15px']} color={colors.color1} fontSize={['15px','25px','20px']}/>
                   </Button>

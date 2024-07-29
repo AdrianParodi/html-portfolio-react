@@ -10,6 +10,7 @@ const theme = extendTheme({
     color2: 'rgb(249,249,249)', // "Blanco"
     color3: 'rgb(254,231,21)', // "Amarillo"
   },
+
   styles: {
     global: {
       'h1': {
@@ -48,13 +49,18 @@ const theme = extendTheme({
       },
     },
   },
+
   components: {
     Button: {
       baseStyle: {
         bg: 'color3',
         color: 'color1',
+        borderColor:'color1',
+        borderStyle:'solid',
+        borderWidth:'1px',
         _hover: {
-          bg: 'red',
+          bg: 'color1', //ESTA PROPIEDAD NO SE APLICA, NO ENTIENDO CUAL PUEDE SER EL PROBLEMA. CREO QUE CHAKRA TIENE ALGUN ESTILO PREDEFINIDO QUE NO LO PUEDO SOBREESCRIBIR...
+          color:'color3' //ESTA PROPIEDAD SI SE APLICA
         },
       },
     },

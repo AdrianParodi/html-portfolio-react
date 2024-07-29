@@ -29,7 +29,7 @@ const Hero=()=>{
 
             <Flex className="contenedor-dos-botones" flexDirection='row' justifyContent='space-between'  my='25px'>
                 <Link to="contacto" smooth={smooth} duration={duration} offset={offset}>
-                    <Button bg={colors.color3} color={colors.color1} fontSize={['l','l','l','xl']} fontWeight={fW1} width={['145px',null,null,null,'180px','200px']} py={['5px','8px','20px','25px']} borderRadius={buttonBR} mr={['15px', '25px']}>Contratarme</Button>
+                    <Button bg={colors.color3} fontSize={['l','l','l','xl']} fontWeight={fW1} width={['145px',null,null,null,'180px','200px']} py={['5px','8px','20px','25px']} borderRadius={buttonBR} mr={['15px', '25px']} >Contratarme</Button>
                 </Link>
                 
                 <Link to="sobre-mi" smooth={smooth} duration={duration} offset={offset}>

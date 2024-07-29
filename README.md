@@ -23,4 +23,5 @@ https://html-portfolio-react-q7azpt9t2-adrian-parodis-projects.vercel.app/
 
 
 Algunos problemas encontrados:
-1) En el header o navbar tengo varias etiquetas <Link> (de react-scroll), pero la que dice 'Portafolio' no la pude hacer responsive en la misma linea, para cambiarle el tamaño de fuente. Averiguando, vi que hay que escribir un css para lograr esto. Usted nos dijo que nos olvidaramos del css. Por eso dejé esto con tamaño único
+1) Tuve problemas al aplicar estilos globales para botones en el archivo themes.js. Especificamente, el comportamiento del _hover, me deja cambiar el color del texto al hacer hover, pero NO el color del background, me aparece un color gris por defecto, pero no encontré forma de sobreescribir eso globalmente. Obviamente, podría haber ido botón por botón y agregarle este comportamiento; de hecho probé hacerlo así y funciona. Pero decidí quitar eso, primero para que observe el problema que tengo y en segundo lugar porque me parece que tener eso es contraproducente para la mantenibilidad futura del sitio. 
+Solo modifiqué el botón "Consultar Servicios Disponibles" porque ahí además tengo unos iconos que necesitaba cambiar de color. Eso sí lo hice, la lógica sería igual para los otros botones...  Si puede darme una mano para entender porque no pude cambiar eso de manera global, sería de gran ayuda. Gracias!

@@ -1,53 +1,62 @@
 import React from 'react';
-import { useFormik, Formik, Form, Field, ErrorMessage } from 'formik';
+import { useFormik, Formik, Form, Field, ErrorMessage} from 'formik';
 
-import * as yup from 'yup';
-import { useState } from 'react'
-import {Flex, Text} from '@chakra-ui/react'
+// import * as yup from 'yup';
+// import { useState } from 'react'
+import {Flex, Box, Text, Button, Textarea} from '@chakra-ui/react'
+import { colors } from '../../themes/themes.js'; // 
 
 const Contacto=()=>{
 
-  let [nombre, setNombre] = useState('')
-  let [apellido, setApellido] = useState('')
-  let [email, setEmail] = useState('')
-  let [mensaje, setMensaje] = useState('')
+  return( 
+    <Formik initialValues={{
+      firstname:'',
+      lastname:'',
+      email:'',
+      mensaje:''
+    }}
+    
+    onSubmit={(values)=>{console.log(values)
+    }}
+    >
 
-  function manejarEnvio(e){
-    e.preventDefault()
-    console.log(nombre)
-    console.log(apellido)
-    console.log(email)
-    console.log(mensaje)
+    {({
+        values,
+        errors,
+        handleChange,
+        handleSubmit,
+        isSubmitting
+      })=>(
 
-  }
-
-    return(
-        <section className="contacto" id="contacto">
-      <div>        
+        <Box as='section' className="contacto" id="contacto" display='flex' flexDirection='column'>
+      <Flex as='div'>        
         <h1>Contacto</h1>
-      </div>
-      <form className="formulario" onSubmit={manejarEnvio}>
-        <div>
-          <input type="text" id="fname" name="fname" placeholder="Nombre *" value={nombre} onChange={(e)=>setNombre(e.target.value)}></input>
-        </div>
-        <div>
-          <input type="text" id="lname" name="lname" placeholder="Apellido *" value={apellido} onChange={(e)=>setApellido(e.target.value)}></input>
-        </div>
+      </Flex>
+      <Form className="formulario" onSubmit={handleSubmit}>
+        <Flex as='div'>
+          <input type="text" id="firstname" name="firstname" placeholder="Nombre *" value={values.firstname} onChange={handleChange}></input>
+        </Flex>
+        <Flex as='div'>
+          <input type="text" id="lastname" name="lastname" placeholder="Apellido *" value={values.lastname} onChange={handleChange}></input>
+        </Flex>
         
-        <div>
-          <input type="email" id="email" name="email" placeholder="Email *" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
-        </div>
+        <Flex as='div'>
+          <input type="email" id="email" name="email" placeholder="Email *" value={values.email} onChange={handleChange}></input>
+        </Flex>
 
-        <div>
-          <textarea id="mensaje" name="mensaje" required placeholder="Mensaje *" value={mensaje} onChange={(e)=>setMensaje(e.target.value)} ></textarea>
-        </div>
+        <Flex as='div'>
+          <Textarea id="mensaje" name="mensaje" required placeholder="Mensaje *" value={values.mensaje} onChange={handleChange} ></Textarea>
+        </Flex>
 
-        <div>
-          <button className="small-button" type="submit"> Enviar</button>
-        </div>    
+        <Flex as='div'>
+          <Button className="small-button" type="submit" bg={colors.color3} color={colors.color1}> Enviar</Button>
+        </Flex>    
               
-      </form>
-    </section>
+      </Form>
+    </Box>
+      )
+      }
+    </Formik>
     )
 }
 
