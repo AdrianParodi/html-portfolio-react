@@ -22,7 +22,7 @@ En este proyecto se instalaron las siguientes librerias
 El deployment de la página web se realizó utilizando Vercel, que se conecta con un proyecto de github desarrollado en React y permite generar la página web con toda la funcionalidad de React. Cabe mencionar que el deployment del proyecto utilizando solamente Github no es posible, ya que los node modules del proyecto no son subidos a Github al realizar los distintos push.
 
 Se puede acceder a la página web implementada en el siguiente link:
-https://html-portfolio-react-k9nuzorxn-adrian-parodis-projects.vercel.app/
+https://html-portfolio-react-ehnf2zfq9-adrian-parodis-projects.vercel.app/
 
 Alternativamente, se puede acceder a la seccion *Deployments* en la barra derecha de esta sección, y ahí ingresar al link que aparece en el cuadro **"Production"**.
 
