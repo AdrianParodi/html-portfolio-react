@@ -21,7 +21,7 @@ const Hero=()=>{
     return(
         <Flex as="section" className="hero" id="hero" flexDirection='row' justifyContent='space-between' alignItems='center' maxWidth='100%' paddingX={['2%','4%','8%','10%', null, '15%']} bg={colors.color1} color={colors.color2}>
             <Flex flexDirection='column' textAlign='left' maxWidth={['100%',null,'60%']} >
-                <Text as='h1' mb='40px' px='5px'>Hola, soy Adrián <br/>
+                <Text as='h1' mb='40px' mt='40px' px='5px'>Hola, soy Adrián <br/>
                 Programador y diseñador web</Text>
                 <Text  >Ingeniero químico con marcado perfil analítico y formación de doctorado. <br/> 
                 Ofrezco servicios en el área de ingeniería, desarrollo del backend de aplicaciones y diseño de páginas web.
