@@ -6,6 +6,7 @@ import { faBars, faList } from '@fortawesome/free-solid-svg-icons';
 import { colors } from '../../themes/themes.js'; // Colores para la página web color1, color2, color3
 import {Link, Events} from 'react-scroll'
 import bumeran from '/img/Imagen-navbar.png'
+import { color } from 'framer-motion';
 
 
 const Header=()=>{
@@ -78,14 +79,15 @@ const Header=()=>{
                 </Box>
             </Flex>
 
-            <Box display={['flex',null,null,'none']} justifyContent='center' width='100%'>
+            <Box display={['flex',null,null,'none']} justifyContent='center' width='100%' position='relative' bg={colors.color1}>
 
                 {/* Implementación del menú para tamaños de pantalla pequeños */}
-                <Menu isOpen={isOpen}>
+                <Menu isOpen={isOpen} onClose={() => setIsOpen(false)}  >
                     <MenuButton as={IconButton} onClick={handleMenuClick} aria-label='Options'
                     icon={<FontAwesomeIcon icon={faBars} />}
                     variant='outline' borderColor={colors.color1}/>
-                    <MenuList>
+                    <MenuList width='100vw' left='0' position='absolute' top='100%'
+                    zIndex='10' mt='0'>
                         <MenuItem> <Link to="hero" smooth={smooth} duration={duration} offset={offset}  onClick={() => handleLinkClick('hero')} > Portafolio </Link>
                         </MenuItem>
                         <MenuItem> <Link to="sobre-mi" smooth={smooth} duration={duration} offset={offset} onClick={() => handleLinkClick('sobre-mi')} > Sobre mí </Link>
